@@ -1,0 +1,7 @@
+# The verification tools in code/tools/ need only the Python standard library (3.9+).
+# Optional, only for re-running research code (see CODE_MAP.md):
+# numpy
+# scikit-learn
+# torch
+# transformers
+# peft

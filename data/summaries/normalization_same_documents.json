@@ -1,0 +1,5289 @@
+{
+ "bootstrap": {
+  "B": 10000,
+  "seed": 7701,
+  "unit": "document pairs (paired resampling)"
+ },
+ "models": {
+  "Llama-3.1-8B": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2280,
+      "attack": 1924,
+      "control": 2167
+     },
+     "accuracy": {
+      "base": 90.19,
+      "attack": 76.11,
+      "control": 85.72
+     },
+     "protected_missed": {
+      "base": 73,
+      "attack": 441,
+      "control": 210
+     },
+     "overprotect": {
+      "base": 63,
+      "attack": 82,
+      "control": 55
+     },
+     "protected_missed_diff": {
+      "point": 20.33,
+      "ci95": [
+       17.6,
+       23.15
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": 1.94,
+      "ci95": [
+       0.63,
+       3.28
+      ],
+      "den": 1392
+     },
+     "P": 951,
+     "protected_to_U": {
+      "attack": 356,
+      "control": 131
+     },
+     "protected_to_U_diff": {
+      "point": 23.66,
+      "ci95": [
+       20.75,
+       26.7
+      ],
+      "den": 951
+     },
+     "label_changed": {
+      "attack": 547,
+      "control": 197
+     },
+     "new_errors": {
+      "attack": 432,
+      "control": 145
+     },
+     "new_errors_diff": {
+      "point": 12.59,
+      "ci95": [
+       11.14,
+       14.05
+      ],
+      "den": 2280
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 312,
+      "attack": 320,
+      "control": 316
+     },
+     "accuracy": {
+      "base": 72.39,
+      "attack": 74.25,
+      "control": 73.32
+     },
+     "protected_missed": {
+      "base": 8,
+      "attack": 10,
+      "control": 6
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 4,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.94,
+      "ci95": [
+       0.23,
+       1.89
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": -16.67,
+      "ci95": [
+       -50.11,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 311,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.32,
+      "ci95": [
+       0.0,
+       1.01
+      ],
+      "den": 311
+     },
+     "label_changed": {
+      "attack": 24,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 6,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": 0.64,
+      "ci95": [
+       -1.31,
+       2.67
+      ],
+      "den": 312
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 498,
+      "attack": 500,
+      "control": 498
+     },
+     "accuracy": {
+      "base": 83.42,
+      "attack": 83.75,
+      "control": 83.42
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 1,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       0.0,
+       0.51
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 497,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.2,
+      "ci95": [
+       0.0,
+       0.62
+      ],
+      "den": 497
+     },
+     "label_changed": {
+      "attack": 22,
+      "control": 12
+     },
+     "new_errors": {
+      "attack": 10,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": 0.8,
+      "ci95": [
+       -0.19,
+       1.83
+      ],
+      "den": 498
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1791,
+      "attack": 1815,
+      "control": 1807
+     },
+     "accuracy": {
+      "base": 70.85,
+      "attack": 71.8,
+      "control": 71.48
+     },
+     "protected_missed": {
+      "base": 570,
+      "attack": 543,
+      "control": 540
+     },
+     "overprotect": {
+      "base": 40,
+      "attack": 50,
+      "control": 51
+     },
+     "protected_missed_diff": {
+      "point": 0.26,
+      "ci95": [
+       -0.53,
+       1.05
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.07,
+      "ci95": [
+       -0.56,
+       0.42
+      ],
+      "den": 1392
+     },
+     "P": 439,
+     "protected_to_U": {
+      "attack": 3,
+      "control": 5
+     },
+     "protected_to_U_diff": {
+      "point": -0.46,
+      "ci95": [
+       -1.39,
+       0.44
+      ],
+      "den": 439
+     },
+     "label_changed": {
+      "attack": 70,
+      "control": 77
+     },
+     "new_errors": {
+      "attack": 19,
+      "control": 26
+     },
+     "new_errors_diff": {
+      "point": -0.39,
+      "ci95": [
+       -0.84,
+       0.06
+      ],
+      "den": 1791
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 311,
+      "attack": 311,
+      "control": 315
+     },
+     "accuracy": {
+      "base": 72.16,
+      "attack": 72.16,
+      "control": 73.09
+     },
+     "protected_missed": {
+      "base": 10,
+      "attack": 12,
+      "control": 11
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 4
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 16.67,
+      "ci95": [
+       0.0,
+       50.11
+      ],
+      "den": 6
+     },
+     "P": 310,
+     "protected_to_U": {
+      "attack": 2,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": 0.32,
+      "ci95": [
+       0.0,
+       1.0
+      ],
+      "den": 310
+     },
+     "label_changed": {
+      "attack": 10,
+      "control": 12
+     },
+     "new_errors": {
+      "attack": 5,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": 0.32,
+      "ci95": [
+       -0.66,
+       1.52
+      ],
+      "den": 311
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 504,
+      "attack": 504,
+      "control": 504
+     },
+     "accuracy": {
+      "base": 84.42,
+      "attack": 84.42,
+      "control": 84.42
+     },
+     "protected_missed": {
+      "base": 2,
+      "attack": 2,
+      "control": 2
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 503,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 503
+     },
+     "label_changed": {
+      "attack": 10,
+      "control": 6
+     },
+     "new_errors": {
+      "attack": 5,
+      "control": 3
+     },
+     "new_errors_diff": {
+      "point": 0.4,
+      "ci95": [
+       -0.39,
+       1.2
+      ],
+      "den": 504
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1755,
+      "attack": 1755,
+      "control": 1755
+     },
+     "accuracy": {
+      "base": 69.42,
+      "attack": 69.42,
+      "control": 69.42
+     },
+     "protected_missed": {
+      "base": 203,
+      "attack": 203,
+      "control": 192
+     },
+     "overprotect": {
+      "base": 297,
+      "attack": 297,
+      "control": 301
+     },
+     "protected_missed_diff": {
+      "point": 0.97,
+      "ci95": [
+       0.09,
+       1.84
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.29,
+      "ci95": [
+       -1.07,
+       0.5
+      ],
+      "den": 1392
+     },
+     "P": 660,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 4
+     },
+     "protected_to_U_diff": {
+      "point": -0.61,
+      "ci95": [
+       -1.25,
+       -0.15
+      ],
+      "den": 660
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 76
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 31
+     },
+     "new_errors_diff": {
+      "point": -1.77,
+      "ci95": [
+       -2.41,
+       -1.18
+      ],
+      "den": 1755
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 319,
+      "attack": 319,
+      "control": 317
+     },
+     "accuracy": {
+      "base": 74.01,
+      "attack": 74.01,
+      "control": 73.55
+     },
+     "protected_missed": {
+      "base": 2,
+      "attack": 2,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": -0.24,
+      "ci95": [
+       -0.71,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 318,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": -0.31,
+      "ci95": [
+       -0.98,
+       0.0
+      ],
+      "den": 318
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 7
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": -1.25,
+      "ci95": [
+       -2.59,
+       -0.3
+      ],
+      "den": 319
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 490,
+      "attack": 490,
+      "control": 489
+     },
+     "accuracy": {
+      "base": 82.08,
+      "attack": 82.08,
+      "control": 81.91
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 489,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 489
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": -1.02,
+      "ci95": [
+       -2.02,
+       -0.2
+      ],
+      "den": 490
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2146,
+      "attack": 2146,
+      "control": 2144
+     },
+     "accuracy": {
+      "base": 84.89,
+      "attack": 84.89,
+      "control": 84.81
+     },
+     "protected_missed": {
+      "base": 99,
+      "attack": 99,
+      "control": 99
+     },
+     "overprotect": {
+      "base": 165,
+      "attack": 165,
+      "control": 166
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       -0.54,
+       0.53
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.07,
+      "ci95": [
+       -0.42,
+       0.22
+      ],
+      "den": 1392
+     },
+     "P": 919,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 5
+     },
+     "protected_to_U_diff": {
+      "point": -0.54,
+      "ci95": [
+       -1.07,
+       -0.11
+      ],
+      "den": 919
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 18
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 10
+     },
+     "new_errors_diff": {
+      "point": -0.47,
+      "ci95": [
+       -0.79,
+       -0.19
+      ],
+      "den": 2146
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 322,
+      "attack": 322,
+      "control": 324
+     },
+     "accuracy": {
+      "base": 74.71,
+      "attack": 74.71,
+      "control": 75.17
+     },
+     "protected_missed": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 321,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 321
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 4
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 1
+     },
+     "new_errors_diff": {
+      "point": -0.31,
+      "ci95": [
+       -0.96,
+       0.0
+      ],
+      "den": 322
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 498,
+      "attack": 498,
+      "control": 495
+     },
+     "accuracy": {
+      "base": 83.42,
+      "attack": 83.42,
+      "control": 82.91
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 3,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 3,
+      "attack": 3,
+      "control": 2
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 14.29,
+      "ci95": [
+       0.0,
+       50.0
+      ],
+      "den": 7
+     },
+     "P": 494,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 494
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": -1.2,
+      "ci95": [
+       -2.24,
+       -0.4
+      ],
+      "den": 498
+     }
+    }
+   }
+  },
+  "Qwen2.5-7B": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2272,
+      "attack": 1975,
+      "control": 2182
+     },
+     "accuracy": {
+      "base": 89.87,
+      "attack": 78.12,
+      "control": 86.31
+     },
+     "protected_missed": {
+      "base": 68,
+      "attack": 403,
+      "control": 176
+     },
+     "overprotect": {
+      "base": 68,
+      "attack": 54,
+      "control": 59
+     },
+     "protected_missed_diff": {
+      "point": 19.98,
+      "ci95": [
+       17.28,
+       22.74
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.36,
+      "ci95": [
+       -1.5,
+       0.76
+      ],
+      "den": 1392
+     },
+     "P": 948,
+     "protected_to_U": {
+      "attack": 329,
+      "control": 110
+     },
+     "protected_to_U_diff": {
+      "point": 23.1,
+      "ci95": [
+       20.1,
+       26.22
+      ],
+      "den": 948
+     },
+     "label_changed": {
+      "attack": 481,
+      "control": 189
+     },
+     "new_errors": {
+      "attack": 376,
+      "control": 133
+     },
+     "new_errors_diff": {
+      "point": 10.7,
+      "ci95": [
+       9.25,
+       12.15
+      ],
+      "den": 2272
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 310,
+      "attack": 315,
+      "control": 314
+     },
+     "accuracy": {
+      "base": 71.93,
+      "attack": 73.09,
+      "control": 72.85
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 4,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 4,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 308,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.32,
+      "ci95": [
+       0.0,
+       1.01
+      ],
+      "den": 308
+     },
+     "label_changed": {
+      "attack": 36,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 14,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": 2.9,
+      "ci95": [
+       0.96,
+       5.14
+      ],
+      "den": 310
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 496,
+      "attack": 504,
+      "control": 502
+     },
+     "accuracy": {
+      "base": 83.08,
+      "attack": 84.42,
+      "control": 84.09
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 1,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       0.0,
+       0.51
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 495,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.2,
+      "ci95": [
+       0.0,
+       0.62
+      ],
+      "den": 495
+     },
+     "label_changed": {
+      "attack": 44,
+      "control": 22
+     },
+     "new_errors": {
+      "attack": 18,
+      "control": 8
+     },
+     "new_errors_diff": {
+      "point": 2.02,
+      "ci95": [
+       0.61,
+       3.55
+      ],
+      "den": 496
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1910,
+      "attack": 1930,
+      "control": 1927
+     },
+     "accuracy": {
+      "base": 75.55,
+      "attack": 76.34,
+      "control": 76.23
+     },
+     "protected_missed": {
+      "base": 380,
+      "attack": 349,
+      "control": 340
+     },
+     "overprotect": {
+      "base": 121,
+      "attack": 129,
+      "control": 138
+     },
+     "protected_missed_diff": {
+      "point": 0.79,
+      "ci95": [
+       -0.36,
+       1.94
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.65,
+      "ci95": [
+       -1.47,
+       0.14
+      ],
+      "den": 1392
+     },
+     "P": 639,
+     "protected_to_U": {
+      "attack": 16,
+      "control": 15
+     },
+     "protected_to_U_diff": {
+      "point": 0.16,
+      "ci95": [
+       -0.95,
+       1.27
+      ],
+      "den": 639
+     },
+     "label_changed": {
+      "attack": 124,
+      "control": 119
+     },
+     "new_errors": {
+      "attack": 46,
+      "control": 44
+     },
+     "new_errors_diff": {
+      "point": 0.1,
+      "ci95": [
+       -0.58,
+       0.8
+      ],
+      "den": 1910
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 306,
+      "attack": 311,
+      "control": 309
+     },
+     "accuracy": {
+      "base": 71.0,
+      "attack": 72.16,
+      "control": 71.69
+     },
+     "protected_missed": {
+      "base": 7,
+      "attack": 7,
+      "control": 6
+     },
+     "overprotect": {
+      "base": 4,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       -0.47,
+       0.95
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 304,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": -0.33,
+      "ci95": [
+       -1.03,
+       0.0
+      ],
+      "den": 304
+     },
+     "label_changed": {
+      "attack": 18,
+      "control": 18
+     },
+     "new_errors": {
+      "attack": 6,
+      "control": 7
+     },
+     "new_errors_diff": {
+      "point": -0.33,
+      "ci95": [
+       -1.75,
+       1.01
+      ],
+      "den": 306
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 491,
+      "attack": 491,
+      "control": 491
+     },
+     "accuracy": {
+      "base": 82.24,
+      "attack": 82.24,
+      "control": 82.24
+     },
+     "protected_missed": {
+      "base": 6,
+      "attack": 6,
+      "control": 4
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.34,
+      "ci95": [
+       0.0,
+       0.85
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 490,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 490
+     },
+     "label_changed": {
+      "attack": 6,
+      "control": 17
+     },
+     "new_errors": {
+      "attack": 3,
+      "control": 7
+     },
+     "new_errors_diff": {
+      "point": -0.81,
+      "ci95": [
+       -1.65,
+       -0.2
+      ],
+      "den": 491
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1623,
+      "attack": 1623,
+      "control": 1620
+     },
+     "accuracy": {
+      "base": 64.2,
+      "attack": 64.2,
+      "control": 64.08
+     },
+     "protected_missed": {
+      "base": 122,
+      "attack": 122,
+      "control": 107
+     },
+     "overprotect": {
+      "base": 421,
+      "attack": 421,
+      "control": 446
+     },
+     "protected_missed_diff": {
+      "point": 1.32,
+      "ci95": [
+       0.52,
+       2.16
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -1.8,
+      "ci95": [
+       -2.91,
+       -0.67
+      ],
+      "den": 1392
+     },
+     "P": 652,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 3
+     },
+     "protected_to_U_diff": {
+      "point": -0.46,
+      "ci95": [
+       -1.07,
+       0.0
+      ],
+      "den": 652
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 148
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 68
+     },
+     "new_errors_diff": {
+      "point": -4.19,
+      "ci95": [
+       -5.2,
+       -3.25
+      ],
+      "den": 1623
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 320,
+      "attack": 320,
+      "control": 317
+     },
+     "accuracy": {
+      "base": 74.25,
+      "attack": 74.25,
+      "control": 73.55
+     },
+     "protected_missed": {
+      "base": 6,
+      "attack": 6,
+      "control": 4
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.47,
+      "ci95": [
+       0.0,
+       1.18
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 319,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 319
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": -1.88,
+      "ci95": [
+       -3.49,
+       -0.61
+      ],
+      "den": 320
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 470,
+      "attack": 470,
+      "control": 461
+     },
+     "accuracy": {
+      "base": 78.73,
+      "attack": 78.73,
+      "control": 77.22
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 469,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 469
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 11
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 10
+     },
+     "new_errors_diff": {
+      "point": -2.13,
+      "ci95": [
+       -3.51,
+       -0.86
+      ],
+      "den": 470
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2129,
+      "attack": 2129,
+      "control": 2132
+     },
+     "accuracy": {
+      "base": 84.22,
+      "attack": 84.22,
+      "control": 84.34
+     },
+     "protected_missed": {
+      "base": 115,
+      "attack": 115,
+      "control": 112
+     },
+     "overprotect": {
+      "base": 159,
+      "attack": 159,
+      "control": 158
+     },
+     "protected_missed_diff": {
+      "point": 0.26,
+      "ci95": [
+       -0.35,
+       0.89
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": 0.07,
+      "ci95": [
+       -0.44,
+       0.58
+      ],
+      "den": 1392
+     },
+     "P": 896,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 4
+     },
+     "protected_to_U_diff": {
+      "point": -0.45,
+      "ci95": [
+       -0.92,
+       -0.11
+      ],
+      "den": 896
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 36
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 16
+     },
+     "new_errors_diff": {
+      "point": -0.75,
+      "ci95": [
+       -1.14,
+       -0.42
+      ],
+      "den": 2129
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 312,
+      "attack": 312,
+      "control": 313
+     },
+     "accuracy": {
+      "base": 72.39,
+      "attack": 72.39,
+      "control": 72.62
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 3,
+      "control": 4
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": -0.24,
+      "ci95": [
+       -0.71,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 311,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": -0.32,
+      "ci95": [
+       -1.01,
+       0.0
+      ],
+      "den": 311
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 10
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": -1.28,
+      "ci95": [
+       -2.63,
+       -0.31
+      ],
+      "den": 312
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 495,
+      "attack": 495,
+      "control": 500
+     },
+     "accuracy": {
+      "base": 82.91,
+      "attack": 82.91,
+      "control": 83.75
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 0,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": -0.17,
+      "ci95": [
+       -0.51,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 494,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 494
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": -0.81,
+      "ci95": [
+       -1.64,
+       -0.2
+      ],
+      "den": 495
+     }
+    }
+   }
+  },
+  "Mistral-7B": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2248,
+      "attack": 1890,
+      "control": 2121
+     },
+     "accuracy": {
+      "base": 88.92,
+      "attack": 74.76,
+      "control": 83.9
+     },
+     "protected_missed": {
+      "base": 74,
+      "attack": 526,
+      "control": 235
+     },
+     "overprotect": {
+      "base": 77,
+      "attack": 29,
+      "control": 61
+     },
+     "protected_missed_diff": {
+      "point": 25.62,
+      "ci95": [
+       22.91,
+       28.35
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -2.3,
+      "ci95": [
+       -3.23,
+       -1.42
+      ],
+      "den": 1392
+     },
+     "P": 933,
+     "protected_to_U": {
+      "attack": 413,
+      "control": 148
+     },
+     "protected_to_U_diff": {
+      "point": 28.4,
+      "ci95": [
+       25.34,
+       31.5
+      ],
+      "den": 933
+     },
+     "label_changed": {
+      "attack": 562,
+      "control": 240
+     },
+     "new_errors": {
+      "attack": 435,
+      "control": 172
+     },
+     "new_errors_diff": {
+      "point": 11.7,
+      "ci95": [
+       10.27,
+       13.13
+      ],
+      "den": 2248
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 292,
+      "attack": 282,
+      "control": 286
+     },
+     "accuracy": {
+      "base": 67.75,
+      "attack": 65.43,
+      "control": 66.36
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 1,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 292,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.34,
+      "ci95": [
+       0.0,
+       1.07
+      ],
+      "den": 292
+     },
+     "label_changed": {
+      "attack": 25,
+      "control": 20
+     },
+     "new_errors": {
+      "attack": 16,
+      "control": 13
+     },
+     "new_errors_diff": {
+      "point": 1.03,
+      "ci95": [
+       -0.69,
+       2.85
+      ],
+      "den": 292
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 496,
+      "attack": 506,
+      "control": 497
+     },
+     "accuracy": {
+      "base": 83.08,
+      "attack": 84.76,
+      "control": 83.25
+     },
+     "protected_missed": {
+      "base": 2,
+      "attack": 2,
+      "control": 2
+     },
+     "overprotect": {
+      "base": 3,
+      "attack": 2,
+      "control": 4
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": -28.57,
+      "ci95": [
+       -66.67,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 492,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 492
+     },
+     "label_changed": {
+      "attack": 33,
+      "control": 12
+     },
+     "new_errors": {
+      "attack": 11,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": 1.21,
+      "ci95": [
+       -0.2,
+       2.63
+      ],
+      "den": 496
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1935,
+      "attack": 1926,
+      "control": 1938
+     },
+     "accuracy": {
+      "base": 76.54,
+      "attack": 76.19,
+      "control": 76.66
+     },
+     "protected_missed": {
+      "base": 323,
+      "attack": 314,
+      "control": 306
+     },
+     "overprotect": {
+      "base": 158,
+      "attack": 178,
+      "control": 177
+     },
+     "protected_missed_diff": {
+      "point": 0.7,
+      "ci95": [
+       -0.18,
+       1.65
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": 0.07,
+      "ci95": [
+       -0.66,
+       0.84
+      ],
+      "den": 1392
+     },
+     "P": 701,
+     "protected_to_U": {
+      "attack": 12,
+      "control": 12
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       -0.88,
+       0.87
+      ],
+      "den": 701
+     },
+     "label_changed": {
+      "attack": 122,
+      "control": 111
+     },
+     "new_errors": {
+      "attack": 60,
+      "control": 49
+     },
+     "new_errors_diff": {
+      "point": 0.57,
+      "ci95": [
+       -0.05,
+       1.21
+      ],
+      "den": 1935
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 295,
+      "attack": 295,
+      "control": 299
+     },
+     "accuracy": {
+      "base": 68.45,
+      "attack": 68.45,
+      "control": 69.37
+     },
+     "protected_missed": {
+      "base": 16,
+      "attack": 9,
+      "control": 8
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 294,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 294
+     },
+     "label_changed": {
+      "attack": 20,
+      "control": 22
+     },
+     "new_errors": {
+      "attack": 7,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": 0.34,
+      "ci95": [
+       0.0,
+       1.07
+      ],
+      "den": 295
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 504,
+      "attack": 504,
+      "control": 501
+     },
+     "accuracy": {
+      "base": 84.42,
+      "attack": 84.42,
+      "control": 83.92
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 3,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 2,
+      "attack": 2,
+      "control": 3
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": -14.29,
+      "ci95": [
+       -50.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 499,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 499
+     },
+     "label_changed": {
+      "attack": 8,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 4,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": -0.4,
+      "ci95": [
+       -1.39,
+       0.58
+      ],
+      "den": 504
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1807,
+      "attack": 1807,
+      "control": 1804
+     },
+     "accuracy": {
+      "base": 71.48,
+      "attack": 71.48,
+      "control": 71.36
+     },
+     "protected_missed": {
+      "base": 318,
+      "attack": 318,
+      "control": 316
+     },
+     "overprotect": {
+      "base": 187,
+      "attack": 187,
+      "control": 187
+     },
+     "protected_missed_diff": {
+      "point": 0.18,
+      "ci95": [
+       -0.85,
+       1.17
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       -0.64,
+       0.64
+      ],
+      "den": 1392
+     },
+     "P": 602,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 16
+     },
+     "protected_to_U_diff": {
+      "point": -2.66,
+      "ci95": [
+       -4.06,
+       -1.46
+      ],
+      "den": 602
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 76
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 36
+     },
+     "new_errors_diff": {
+      "point": -1.99,
+      "ci95": [
+       -2.67,
+       -1.38
+      ],
+      "den": 1807
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 299,
+      "attack": 299,
+      "control": 298
+     },
+     "accuracy": {
+      "base": 69.37,
+      "attack": 69.37,
+      "control": 69.14
+     },
+     "protected_missed": {
+      "base": 17,
+      "attack": 17,
+      "control": 17
+     },
+     "overprotect": {
+      "base": 2,
+      "attack": 2,
+      "control": 3
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": -16.67,
+      "ci95": [
+       -50.11,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 295,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 295
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 4
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 2
+     },
+     "new_errors_diff": {
+      "point": -0.67,
+      "ci95": [
+       -1.69,
+       0.0
+      ],
+      "den": 299
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 482,
+      "attack": 482,
+      "control": 481
+     },
+     "accuracy": {
+      "base": 80.74,
+      "attack": 80.74,
+      "control": 80.57
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 3,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 2,
+      "attack": 2,
+      "control": 3
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": -14.29,
+      "ci95": [
+       -50.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 477,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 477
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 5
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 3
+     },
+     "new_errors_diff": {
+      "point": -0.62,
+      "ci95": [
+       -1.44,
+       0.0
+      ],
+      "den": 482
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2179,
+      "attack": 2179,
+      "control": 2170
+     },
+     "accuracy": {
+      "base": 86.19,
+      "attack": 86.19,
+      "control": 85.84
+     },
+     "protected_missed": {
+      "base": 100,
+      "attack": 100,
+      "control": 91
+     },
+     "overprotect": {
+      "base": 134,
+      "attack": 134,
+      "control": 147
+     },
+     "protected_missed_diff": {
+      "point": 0.79,
+      "ci95": [
+       0.34,
+       1.35
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.93,
+      "ci95": [
+       -1.6,
+       -0.3
+      ],
+      "den": 1392
+     },
+     "P": 921,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 921
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 39
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 24
+     },
+     "new_errors_diff": {
+      "point": -1.1,
+      "ci95": [
+       -1.56,
+       -0.69
+      ],
+      "den": 2179
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 323,
+      "attack": 323,
+      "control": 324
+     },
+     "accuracy": {
+      "base": 74.94,
+      "attack": 74.94,
+      "control": 75.17
+     },
+     "protected_missed": {
+      "base": 2,
+      "attack": 2,
+      "control": 2
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 322,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 322
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 2
+     },
+     "new_errors_diff": {
+      "point": -0.62,
+      "ci95": [
+       -1.58,
+       0.0
+      ],
+      "den": 323
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 501,
+      "attack": 501,
+      "control": 506
+     },
+     "accuracy": {
+      "base": 83.92,
+      "attack": 83.92,
+      "control": 84.76
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 500,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 500
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 7
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 1
+     },
+     "new_errors_diff": {
+      "point": -0.2,
+      "ci95": [
+       -0.61,
+       0.0
+      ],
+      "den": 501
+     }
+    }
+   }
+  },
+  "Gemma-2-9B": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2260,
+      "attack": 1898,
+      "control": 2147
+     },
+     "accuracy": {
+      "base": 89.4,
+      "attack": 75.08,
+      "control": 84.93
+     },
+     "protected_missed": {
+      "base": 77,
+      "attack": 467,
+      "control": 220
+     },
+     "overprotect": {
+      "base": 70,
+      "attack": 88,
+      "control": 61
+     },
+     "protected_missed_diff": {
+      "point": 21.74,
+      "ci95": [
+       19.03,
+       24.54
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": 1.94,
+      "ci95": [
+       0.59,
+       3.29
+      ],
+      "den": 1392
+     },
+     "P": 938,
+     "protected_to_U": {
+      "attack": 384,
+      "control": 148
+     },
+     "protected_to_U_diff": {
+      "point": 25.16,
+      "ci95": [
+       22.17,
+       28.18
+      ],
+      "den": 938
+     },
+     "label_changed": {
+      "attack": 598,
+      "control": 241
+     },
+     "new_errors": {
+      "attack": 462,
+      "control": 166
+     },
+     "new_errors_diff": {
+      "point": 13.1,
+      "ci95": [
+       11.62,
+       14.59
+      ],
+      "den": 2260
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 319,
+      "attack": 321,
+      "control": 317
+     },
+     "accuracy": {
+      "base": 74.01,
+      "attack": 74.48,
+      "control": 73.55
+     },
+     "protected_missed": {
+      "base": 4,
+      "attack": 5,
+      "control": 3
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 5,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.47,
+      "ci95": [
+       0.0,
+       1.18
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": -16.67,
+      "ci95": [
+       -50.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 319,
+     "protected_to_U": {
+      "attack": 2,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.63,
+      "ci95": [
+       0.0,
+       1.59
+      ],
+      "den": 319
+     },
+     "label_changed": {
+      "attack": 23,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 9,
+      "control": 7
+     },
+     "new_errors_diff": {
+      "point": 0.63,
+      "ci95": [
+       -0.98,
+       2.45
+      ],
+      "den": 319
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 499,
+      "attack": 504,
+      "control": 500
+     },
+     "accuracy": {
+      "base": 83.58,
+      "attack": 84.42,
+      "control": 83.75
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 1,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       0.0,
+       0.51
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 498,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.2,
+      "ci95": [
+       0.0,
+       0.62
+      ],
+      "den": 498
+     },
+     "label_changed": {
+      "attack": 23,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 9,
+      "control": 4
+     },
+     "new_errors_diff": {
+      "point": 1.0,
+      "ci95": [
+       0.2,
+       1.99
+      ],
+      "den": 499
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1931,
+      "attack": 1925,
+      "control": 1930
+     },
+     "accuracy": {
+      "base": 76.38,
+      "attack": 76.15,
+      "control": 76.34
+     },
+     "protected_missed": {
+      "base": 240,
+      "attack": 256,
+      "control": 242
+     },
+     "overprotect": {
+      "base": 220,
+      "attack": 210,
+      "control": 222
+     },
+     "protected_missed_diff": {
+      "point": 1.23,
+      "ci95": [
+       0.43,
+       2.1
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.86,
+      "ci95": [
+       -1.51,
+       -0.28
+      ],
+      "den": 1392
+     },
+     "P": 759,
+     "protected_to_U": {
+      "attack": 19,
+      "control": 11
+     },
+     "protected_to_U_diff": {
+      "point": 1.05,
+      "ci95": [
+       0.26,
+       1.92
+      ],
+      "den": 759
+     },
+     "label_changed": {
+      "attack": 84,
+      "control": 83
+     },
+     "new_errors": {
+      "attack": 41,
+      "control": 39
+     },
+     "new_errors_diff": {
+      "point": 0.1,
+      "ci95": [
+       -0.41,
+       0.62
+      ],
+      "den": 1931
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 320,
+      "attack": 319,
+      "control": 320
+     },
+     "accuracy": {
+      "base": 74.25,
+      "attack": 74.01,
+      "control": 74.25
+     },
+     "protected_missed": {
+      "base": 7,
+      "attack": 6,
+      "control": 5
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 319,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 319
+     },
+     "label_changed": {
+      "attack": 11,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 5,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": -0.31,
+      "ci95": [
+       -1.65,
+       0.96
+      ],
+      "den": 320
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 506,
+      "attack": 505,
+      "control": 507
+     },
+     "accuracy": {
+      "base": 84.76,
+      "attack": 84.59,
+      "control": 84.92
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 2,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       0.0,
+       0.51
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 505,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.2,
+      "ci95": [
+       0.0,
+       0.61
+      ],
+      "den": 505
+     },
+     "label_changed": {
+      "attack": 3,
+      "control": 7
+     },
+     "new_errors": {
+      "attack": 2,
+      "control": 3
+     },
+     "new_errors_diff": {
+      "point": -0.2,
+      "ci95": [
+       -0.97,
+       0.4
+      ],
+      "den": 506
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1788,
+      "attack": 1788,
+      "control": 1777
+     },
+     "accuracy": {
+      "base": 70.73,
+      "attack": 70.73,
+      "control": 70.29
+     },
+     "protected_missed": {
+      "base": 232,
+      "attack": 232,
+      "control": 233
+     },
+     "overprotect": {
+      "base": 265,
+      "attack": 265,
+      "control": 276
+     },
+     "protected_missed_diff": {
+      "point": -0.09,
+      "ci95": [
+       -0.86,
+       0.69
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.79,
+      "ci95": [
+       -1.44,
+       -0.15
+      ],
+      "den": 1392
+     },
+     "P": 661,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 5
+     },
+     "protected_to_U_diff": {
+      "point": -0.76,
+      "ci95": [
+       -1.48,
+       -0.15
+      ],
+      "den": 661
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 65
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 31
+     },
+     "new_errors_diff": {
+      "point": -1.73,
+      "ci95": [
+       -2.35,
+       -1.17
+      ],
+      "den": 1788
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 308,
+      "attack": 308,
+      "control": 309
+     },
+     "accuracy": {
+      "base": 71.46,
+      "attack": 71.46,
+      "control": 71.69
+     },
+     "protected_missed": {
+      "base": 7,
+      "attack": 7,
+      "control": 7
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 307,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 307
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 3
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 1
+     },
+     "new_errors_diff": {
+      "point": -0.32,
+      "ci95": [
+       -1.01,
+       0.0
+      ],
+      "den": 308
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 468,
+      "attack": 468,
+      "control": 468
+     },
+     "accuracy": {
+      "base": 78.39,
+      "attack": 78.39,
+      "control": 78.39
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       0.0,
+       0.51
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 467,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 467
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 14
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 7
+     },
+     "new_errors_diff": {
+      "point": -1.5,
+      "ci95": [
+       -2.69,
+       -0.44
+      ],
+      "den": 468
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2132,
+      "attack": 2132,
+      "control": 2128
+     },
+     "accuracy": {
+      "base": 84.34,
+      "attack": 84.34,
+      "control": 84.18
+     },
+     "protected_missed": {
+      "base": 130,
+      "attack": 130,
+      "control": 127
+     },
+     "overprotect": {
+      "base": 147,
+      "attack": 147,
+      "control": 153
+     },
+     "protected_missed_diff": {
+      "point": 0.26,
+      "ci95": [
+       -0.35,
+       0.89
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.43,
+      "ci95": [
+       -0.87,
+       0.0
+      ],
+      "den": 1392
+     },
+     "P": 887,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 5
+     },
+     "protected_to_U_diff": {
+      "point": -0.56,
+      "ci95": [
+       -1.11,
+       -0.11
+      ],
+      "den": 887
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 29
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 16
+     },
+     "new_errors_diff": {
+      "point": -0.75,
+      "ci95": [
+       -1.13,
+       -0.42
+      ],
+      "den": 2132
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 315,
+      "attack": 315,
+      "control": 316
+     },
+     "accuracy": {
+      "base": 73.09,
+      "attack": 73.09,
+      "control": 73.32
+     },
+     "protected_missed": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 314,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 314
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 13
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": -1.9,
+      "ci95": [
+       -3.56,
+       -0.62
+      ],
+      "den": 315
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 494,
+      "attack": 494,
+      "control": 492
+     },
+     "accuracy": {
+      "base": 82.75,
+      "attack": 82.75,
+      "control": 82.41
+     },
+     "protected_missed": {
+      "base": 0,
+      "attack": 0,
+      "control": 0
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 493,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 493
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 8
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": -1.01,
+      "ci95": [
+       -2.0,
+       -0.2
+      ],
+      "den": 494
+     }
+    }
+   }
+  },
+  "Phi-3.5-mini": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2245,
+      "attack": 1917,
+      "control": 2144
+     },
+     "accuracy": {
+      "base": 88.81,
+      "attack": 75.83,
+      "control": 84.81
+     },
+     "protected_missed": {
+      "base": 80,
+      "attack": 450,
+      "control": 183
+     },
+     "overprotect": {
+      "base": 64,
+      "attack": 60,
+      "control": 72
+     },
+     "protected_missed_diff": {
+      "point": 23.5,
+      "ci95": [
+       20.83,
+       26.26
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.86,
+      "ci95": [
+       -1.95,
+       0.21
+      ],
+      "den": 1392
+     },
+     "P": 917,
+     "protected_to_U": {
+      "attack": 339,
+      "control": 110
+     },
+     "protected_to_U_diff": {
+      "point": 24.97,
+      "ci95": [
+       22.01,
+       28.07
+      ],
+      "den": 917
+     },
+     "label_changed": {
+      "attack": 498,
+      "control": 241
+     },
+     "new_errors": {
+      "attack": 389,
+      "control": 155
+     },
+     "new_errors_diff": {
+      "point": 10.42,
+      "ci95": [
+       8.98,
+       11.88
+      ],
+      "den": 2245
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 317,
+      "attack": 317,
+      "control": 311
+     },
+     "accuracy": {
+      "base": 73.55,
+      "attack": 73.55,
+      "control": 72.16
+     },
+     "protected_missed": {
+      "base": 7,
+      "attack": 5,
+      "control": 6
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": -0.24,
+      "ci95": [
+       -0.95,
+       0.47
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 316,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": -0.32,
+      "ci95": [
+       -0.99,
+       0.0
+      ],
+      "den": 316
+     },
+     "label_changed": {
+      "attack": 26,
+      "control": 26
+     },
+     "new_errors": {
+      "attack": 12,
+      "control": 14
+     },
+     "new_errors_diff": {
+      "point": -0.63,
+      "ci95": [
+       -2.46,
+       0.98
+      ],
+      "den": 317
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 488,
+      "attack": 491,
+      "control": 491
+     },
+     "accuracy": {
+      "base": 81.74,
+      "attack": 82.24,
+      "control": 82.24
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 2,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.17,
+      "ci95": [
+       -0.34,
+       0.69
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 487,
+     "protected_to_U": {
+      "attack": 2,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.41,
+      "ci95": [
+       0.0,
+       1.04
+      ],
+      "den": 487
+     },
+     "label_changed": {
+      "attack": 30,
+      "control": 19
+     },
+     "new_errors": {
+      "attack": 13,
+      "control": 8
+     },
+     "new_errors_diff": {
+      "point": 1.02,
+      "ci95": [
+       -0.21,
+       2.43
+      ],
+      "den": 488
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1892,
+      "attack": 1893,
+      "control": 1895
+     },
+     "accuracy": {
+      "base": 74.84,
+      "attack": 74.88,
+      "control": 74.96
+     },
+     "protected_missed": {
+      "base": 306,
+      "attack": 274,
+      "control": 271
+     },
+     "overprotect": {
+      "base": 191,
+      "attack": 208,
+      "control": 216
+     },
+     "protected_missed_diff": {
+      "point": 0.26,
+      "ci95": [
+       -0.89,
+       1.44
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.57,
+      "ci95": [
+       -1.33,
+       0.15
+      ],
+      "den": 1392
+     },
+     "P": 691,
+     "protected_to_U": {
+      "attack": 13,
+      "control": 11
+     },
+     "protected_to_U_diff": {
+      "point": 0.29,
+      "ci95": [
+       -0.75,
+       1.36
+      ],
+      "den": 691
+     },
+     "label_changed": {
+      "attack": 120,
+      "control": 136
+     },
+     "new_errors": {
+      "attack": 50,
+      "control": 59
+     },
+     "new_errors_diff": {
+      "point": -0.48,
+      "ci95": [
+       -1.13,
+       0.21
+      ],
+      "den": 1892
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 308,
+      "attack": 314,
+      "control": 312
+     },
+     "accuracy": {
+      "base": 71.46,
+      "attack": 72.85,
+      "control": 72.39
+     },
+     "protected_missed": {
+      "base": 7,
+      "attack": 7,
+      "control": 6
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 307,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 307
+     },
+     "label_changed": {
+      "attack": 21,
+      "control": 20
+     },
+     "new_errors": {
+      "attack": 6,
+      "control": 6
+     },
+     "new_errors_diff": {
+      "point": 0.0,
+      "ci95": [
+       -0.96,
+       0.96
+      ],
+      "den": 308
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 491,
+      "attack": 494,
+      "control": 492
+     },
+     "accuracy": {
+      "base": 82.24,
+      "attack": 82.75,
+      "control": 82.41
+     },
+     "protected_missed": {
+      "base": 3,
+      "attack": 4,
+      "control": 4
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 490,
+     "protected_to_U": {
+      "attack": 1,
+      "control": 1
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 490
+     },
+     "label_changed": {
+      "attack": 12,
+      "control": 12
+     },
+     "new_errors": {
+      "attack": 4,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": -0.2,
+      "ci95": [
+       -1.05,
+       0.62
+      ],
+      "den": 491
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1766,
+      "attack": 1766,
+      "control": 1786
+     },
+     "accuracy": {
+      "base": 69.86,
+      "attack": 69.86,
+      "control": 70.65
+     },
+     "protected_missed": {
+      "base": 505,
+      "attack": 505,
+      "control": 479
+     },
+     "overprotect": {
+      "base": 132,
+      "attack": 132,
+      "control": 135
+     },
+     "protected_missed_diff": {
+      "point": 2.29,
+      "ci95": [
+       1.11,
+       3.45
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.22,
+      "ci95": [
+       -0.78,
+       0.29
+      ],
+      "den": 1392
+     },
+     "P": 506,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 6
+     },
+     "protected_to_U_diff": {
+      "point": -1.19,
+      "ci95": [
+       -2.21,
+       -0.38
+      ],
+      "den": 506
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 75
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 22
+     },
+     "new_errors_diff": {
+      "point": -1.25,
+      "ci95": [
+       -1.78,
+       -0.75
+      ],
+      "den": 1766
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 297,
+      "attack": 297,
+      "control": 296
+     },
+     "accuracy": {
+      "base": 68.91,
+      "attack": 68.91,
+      "control": 68.68
+     },
+     "protected_missed": {
+      "base": 14,
+      "attack": 14,
+      "control": 11
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.71,
+      "ci95": [
+       0.0,
+       1.65
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 296,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 296
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 9
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": -1.68,
+      "ci95": [
+       -3.32,
+       -0.34
+      ],
+      "den": 297
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 464,
+      "attack": 464,
+      "control": 465
+     },
+     "accuracy": {
+      "base": 77.72,
+      "attack": 77.72,
+      "control": 77.89
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 463,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 463
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 8
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 3
+     },
+     "new_errors_diff": {
+      "point": -0.65,
+      "ci95": [
+       -1.5,
+       0.0
+      ],
+      "den": 464
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 2071,
+      "attack": 2071,
+      "control": 2063
+     },
+     "accuracy": {
+      "base": 81.92,
+      "attack": 81.92,
+      "control": 81.61
+     },
+     "protected_missed": {
+      "base": 132,
+      "attack": 132,
+      "control": 126
+     },
+     "overprotect": {
+      "base": 155,
+      "attack": 155,
+      "control": 175
+     },
+     "protected_missed_diff": {
+      "point": 0.53,
+      "ci95": [
+       -0.17,
+       1.24
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -1.44,
+      "ci95": [
+       -2.17,
+       -0.78
+      ],
+      "den": 1392
+     },
+     "P": 834,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 4
+     },
+     "protected_to_U_diff": {
+      "point": -0.48,
+      "ci95": [
+       -1.0,
+       -0.12
+      ],
+      "den": 834
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 52
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 28
+     },
+     "new_errors_diff": {
+      "point": -1.35,
+      "ci95": [
+       -1.87,
+       -0.88
+      ],
+      "den": 2071
+     }
+    },
+    "frus": {
+     "n": 431,
+     "n_protected": 425,
+     "n_U": 6,
+     "correct": {
+      "base": 307,
+      "attack": 307,
+      "control": 307
+     },
+     "accuracy": {
+      "base": 71.23,
+      "attack": 71.23,
+      "control": 71.23
+     },
+     "protected_missed": {
+      "base": 6,
+      "attack": 6,
+      "control": 5
+     },
+     "overprotect": {
+      "base": 5,
+      "attack": 5,
+      "control": 5
+     },
+     "protected_missed_diff": {
+      "point": 0.24,
+      "ci95": [
+       0.0,
+       0.71
+      ],
+      "den": 425
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 6
+     },
+     "P": 306,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 306
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 3
+     },
+     "new_errors_diff": {
+      "point": -0.98,
+      "ci95": [
+       -2.23,
+       0.0
+      ],
+      "den": 307
+     }
+    },
+    "cia": {
+     "n": 597,
+     "n_protected": 590,
+     "n_U": 7,
+     "correct": {
+      "base": 486,
+      "attack": 486,
+      "control": 482
+     },
+     "accuracy": {
+      "base": 81.41,
+      "attack": 81.41,
+      "control": 80.74
+     },
+     "protected_missed": {
+      "base": 1,
+      "attack": 1,
+      "control": 1
+     },
+     "overprotect": {
+      "base": 6,
+      "attack": 6,
+      "control": 6
+     },
+     "protected_missed_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 590
+     },
+     "overprotect_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 7
+     },
+     "P": 485,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 0
+     },
+     "protected_to_U_diff": {
+      "point": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "den": 485
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 6
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 5
+     },
+     "new_errors_diff": {
+      "point": -1.03,
+      "ci95": [
+       -2.04,
+       -0.21
+      ],
+      "den": 486
+     }
+    }
+   }
+  },
+  "Llama 3.3 70B (CIA only)": {
+   "original": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1023,
+      "attack": 1313,
+      "control": 1084
+     },
+     "accuracy": {
+      "base": 40.47,
+      "attack": 51.94,
+      "control": 42.88
+     },
+     "protected_missed": {
+      "base": 377,
+      "attack": 843,
+      "control": 435
+     },
+     "overprotect": {
+      "base": 910,
+      "attack": 314,
+      "control": 823
+     },
+     "protected_missed_diff": {
+      "point": 35.92,
+      "ci95": [
+       33.18,
+       38.77
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -36.57,
+      "ci95": [
+       -39.08,
+       -33.98
+      ],
+      "den": 1392
+     },
+     "P": 541,
+     "protected_to_U": {
+      "attack": 326,
+      "control": 46
+     },
+     "protected_to_U_diff": {
+      "point": 51.76,
+      "ci95": [
+       47.58,
+       56.01
+      ],
+      "den": 541
+     },
+     "label_changed": {
+      "attack": 1118,
+      "control": 362
+     },
+     "new_errors": {
+      "attack": 332,
+      "control": 101
+     },
+     "new_errors_diff": {
+      "point": 22.58,
+      "ci95": [
+       19.49,
+       25.75
+      ],
+      "den": 1023
+     }
+    }
+   },
+   "N1_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1261,
+      "attack": 1251,
+      "control": 1239
+     },
+     "accuracy": {
+      "base": 49.88,
+      "attack": 49.49,
+      "control": 49.01
+     },
+     "protected_missed": {
+      "base": 421,
+      "attack": 400,
+      "control": 393
+     },
+     "overprotect": {
+      "base": 701,
+      "attack": 730,
+      "control": 740
+     },
+     "protected_missed_diff": {
+      "point": 0.62,
+      "ci95": [
+       -0.96,
+       2.18
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -0.72,
+      "ci95": [
+       -1.98,
+       0.57
+      ],
+      "den": 1392
+     },
+     "P": 570,
+     "protected_to_U": {
+      "attack": 17,
+      "control": 28
+     },
+     "protected_to_U_diff": {
+      "point": -1.93,
+      "ci95": [
+       -3.66,
+       -0.33
+      ],
+      "den": 570
+     },
+     "label_changed": {
+      "attack": 216,
+      "control": 291
+     },
+     "new_errors": {
+      "attack": 94,
+      "control": 125
+     },
+     "new_errors_diff": {
+      "point": -2.46,
+      "ci95": [
+       -3.86,
+       -1.1
+      ],
+      "den": 1261
+     }
+    }
+   },
+   "N2_inference_only": {
+    "wikileaks": {
+     "n": 2528,
+     "n_protected": 1136,
+     "n_U": 1392,
+     "correct": {
+      "base": 1104,
+      "attack": 1104,
+      "control": 1103
+     },
+     "accuracy": {
+      "base": 43.67,
+      "attack": 43.67,
+      "control": 43.63
+     },
+     "protected_missed": {
+      "base": 648,
+      "attack": 648,
+      "control": 618
+     },
+     "overprotect": {
+      "base": 520,
+      "attack": 520,
+      "control": 545
+     },
+     "protected_missed_diff": {
+      "point": 2.64,
+      "ci95": [
+       1.05,
+       4.25
+      ],
+      "den": 1136
+     },
+     "overprotect_diff": {
+      "point": -1.8,
+      "ci95": [
+       -3.02,
+       -0.59
+      ],
+      "den": 1392
+     },
+     "P": 232,
+     "protected_to_U": {
+      "attack": 0,
+      "control": 7
+     },
+     "protected_to_U_diff": {
+      "point": -3.02,
+      "ci95": [
+       -5.36,
+       -0.92
+      ],
+      "den": 232
+     },
+     "label_changed": {
+      "attack": 0,
+      "control": 193
+     },
+     "new_errors": {
+      "attack": 0,
+      "control": 62
+     },
+     "new_errors_diff": {
+      "point": -5.62,
+      "ci95": [
+       -7.01,
+       -4.27
+      ],
+      "den": 1104
+     }
+    }
+   }
+  }
+ },
+ "position": {
+  "Llama-3.1-8B": {
+   "original": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 569,
+     "accuracy": {
+      "base": 88.22,
+      "end": 74.57,
+      "middle": 77.05
+     },
+     "end_new_errors": 98,
+     "middle_new_errors": 77,
+     "diff": {
+      "point": 3.69,
+      "ci95": [
+       2.08,
+       5.44
+      ],
+      "den": 569
+     },
+     "end_up": 97,
+     "end_down": 1,
+     "protected_to_U": {
+      "end": 0,
+      "middle": 0,
+      "den": 130
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1970,
+     "accuracy": {
+      "base": 73.13,
+      "end": 72.09,
+      "middle": 72.79
+     },
+     "end_new_errors": 191,
+     "middle_new_errors": 100,
+     "diff": {
+      "point": 4.62,
+      "ci95": [
+       3.31,
+       5.96
+      ],
+      "den": 1970
+     },
+     "end_up": 125,
+     "end_down": 66,
+     "protected_to_U": {
+      "end": 19,
+      "middle": 2,
+      "den": 1955
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1259,
+     "accuracy": {
+      "base": 76.86,
+      "end": 74.54,
+      "middle": 76.98
+     },
+     "end_new_errors": 82,
+     "middle_new_errors": 13,
+     "diff": {
+      "point": 5.48,
+      "ci95": [
+       4.18,
+       6.85
+      ],
+      "den": 1259
+     },
+     "end_up": 39,
+     "end_down": 43,
+     "protected_to_U": {
+      "end": 1,
+      "middle": 0,
+      "den": 1206
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 591,
+     "accuracy": {
+      "base": 91.63,
+      "end": 91.63,
+      "middle": 91.78
+     },
+     "end_new_errors": 13,
+     "middle_new_errors": 0,
+     "diff": {
+      "point": 2.2,
+      "ci95": [
+       1.16,
+       3.52
+      ],
+      "den": 591
+     },
+     "end_up": 9,
+     "end_down": 4,
+     "protected_to_U": {
+      "end": 3,
+      "middle": 0,
+      "den": 130
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1979,
+     "accuracy": {
+      "base": 73.46,
+      "end": 72.87,
+      "middle": 73.39
+     },
+     "end_new_errors": 158,
+     "middle_new_errors": 52,
+     "diff": {
+      "point": 5.36,
+      "ci95": [
+       4.22,
+       6.48
+      ],
+      "den": 1979
+     },
+     "end_up": 110,
+     "end_down": 48,
+     "protected_to_U": {
+      "end": 11,
+      "middle": 0,
+      "den": 1968
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1236,
+     "accuracy": {
+      "base": 75.46,
+      "end": 72.71,
+      "middle": 75.64
+     },
+     "end_new_errors": 83,
+     "middle_new_errors": 10,
+     "diff": {
+      "point": 5.91,
+      "ci95": [
+       4.58,
+       7.3
+      ],
+      "den": 1236
+     },
+     "end_up": 37,
+     "end_down": 46,
+     "protected_to_U": {
+      "end": 3,
+      "middle": 0,
+      "den": 1180
+     }
+    }
+   }
+  },
+  "Qwen2.5-7B": {
+   "original": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 576,
+     "accuracy": {
+      "base": 89.3,
+      "end": 76.28,
+      "middle": 79.22
+     },
+     "end_new_errors": 89,
+     "middle_new_errors": 70,
+     "diff": {
+      "point": 3.3,
+      "ci95": [
+       1.22,
+       5.35
+      ],
+      "den": 576
+     },
+     "end_up": 86,
+     "end_down": 3,
+     "protected_to_U": {
+      "end": 1,
+      "middle": 0,
+      "den": 135
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1994,
+     "accuracy": {
+      "base": 74.02,
+      "end": 72.83,
+      "middle": 73.05
+     },
+     "end_new_errors": 188,
+     "middle_new_errors": 101,
+     "diff": {
+      "point": 4.36,
+      "ci95": [
+       3.04,
+       5.71
+      ],
+      "den": 1994
+     },
+     "end_up": 157,
+     "end_down": 31,
+     "protected_to_U": {
+      "end": 0,
+      "middle": 0,
+      "den": 1985
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1273,
+     "accuracy": {
+      "base": 77.72,
+      "end": 74.48,
+      "middle": 76.92
+     },
+     "end_new_errors": 104,
+     "middle_new_errors": 25,
+     "diff": {
+      "point": 6.21,
+      "ci95": [
+       4.79,
+       7.7
+      ],
+      "den": 1273
+     },
+     "end_up": 52,
+     "end_down": 52,
+     "protected_to_U": {
+      "end": 2,
+      "middle": 0,
+      "den": 1221
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 597,
+     "accuracy": {
+      "base": 92.56,
+      "end": 90.08,
+      "middle": 92.4
+     },
+     "end_new_errors": 27,
+     "middle_new_errors": 3,
+     "diff": {
+      "point": 4.02,
+      "ci95": [
+       2.47,
+       5.7
+      ],
+      "den": 597
+     },
+     "end_up": 16,
+     "end_down": 11,
+     "protected_to_U": {
+      "end": 8,
+      "middle": 1,
+      "den": 129
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1994,
+     "accuracy": {
+      "base": 74.02,
+      "end": 71.9,
+      "middle": 74.09
+     },
+     "end_new_errors": 225,
+     "middle_new_errors": 84,
+     "diff": {
+      "point": 7.07,
+      "ci95": [
+       5.67,
+       8.49
+      ],
+      "den": 1994
+     },
+     "end_up": 158,
+     "end_down": 67,
+     "protected_to_U": {
+      "end": 17,
+      "middle": 2,
+      "den": 1982
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1273,
+     "accuracy": {
+      "base": 77.72,
+      "end": 75.76,
+      "middle": 76.92
+     },
+     "end_new_errors": 75,
+     "middle_new_errors": 32,
+     "diff": {
+      "point": 3.38,
+      "ci95": [
+       2.06,
+       4.71
+      ],
+      "den": 1273
+     },
+     "end_up": 38,
+     "end_down": 37,
+     "protected_to_U": {
+      "end": 3,
+      "middle": 1,
+      "den": 1225
+     }
+    }
+   }
+  },
+  "Mistral-7B": {
+   "original": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 559,
+     "accuracy": {
+      "base": 86.67,
+      "end": 75.97,
+      "middle": 76.59
+     },
+     "end_new_errors": 81,
+     "middle_new_errors": 72,
+     "diff": {
+      "point": 1.61,
+      "ci95": [
+       0.36,
+       2.9
+      ],
+      "den": 559
+     },
+     "end_up": 78,
+     "end_down": 3,
+     "protected_to_U": {
+      "end": 0,
+      "middle": 0,
+      "den": 127
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1736,
+     "accuracy": {
+      "base": 64.44,
+      "end": 61.36,
+      "middle": 61.36
+     },
+     "end_new_errors": 278,
+     "middle_new_errors": 277,
+     "diff": {
+      "point": 0.06,
+      "ci95": [
+       -0.23,
+       0.35
+      ],
+      "den": 1736
+     },
+     "end_up": 205,
+     "end_down": 73,
+     "protected_to_U": {
+      "end": 1,
+      "middle": 0,
+      "den": 1735
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1224,
+     "accuracy": {
+      "base": 74.73,
+      "end": 74.54,
+      "middle": 75.03
+     },
+     "end_new_errors": 66,
+     "middle_new_errors": 15,
+     "diff": {
+      "point": 4.17,
+      "ci95": [
+       2.97,
+       5.41
+      ],
+      "den": 1224
+     },
+     "end_up": 29,
+     "end_down": 37,
+     "protected_to_U": {
+      "end": 4,
+      "middle": 0,
+      "den": 1172
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 596,
+     "accuracy": {
+      "base": 92.4,
+      "end": 90.54,
+      "middle": 92.4
+     },
+     "end_new_errors": 24,
+     "middle_new_errors": 7,
+     "diff": {
+      "point": 2.85,
+      "ci95": [
+       1.52,
+       4.33
+      ],
+      "den": 596
+     },
+     "end_up": 17,
+     "end_down": 7,
+     "protected_to_U": {
+      "end": 2,
+      "middle": 0,
+      "den": 125
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1964,
+     "accuracy": {
+      "base": 72.9,
+      "end": 72.9,
+      "middle": 72.72
+     },
+     "end_new_errors": 151,
+     "middle_new_errors": 69,
+     "diff": {
+      "point": 4.18,
+      "ci95": [
+       3.08,
+       5.32
+      ],
+      "den": 1964
+     },
+     "end_up": 111,
+     "end_down": 40,
+     "protected_to_U": {
+      "end": 5,
+      "middle": 1,
+      "den": 1954
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1211,
+     "accuracy": {
+      "base": 73.93,
+      "end": 72.95,
+      "middle": 73.87
+     },
+     "end_new_errors": 76,
+     "middle_new_errors": 23,
+     "diff": {
+      "point": 4.38,
+      "ci95": [
+       3.02,
+       5.81
+      ],
+      "den": 1211
+     },
+     "end_up": 37,
+     "end_down": 39,
+     "protected_to_U": {
+      "end": 3,
+      "middle": 0,
+      "den": 1163
+     }
+    }
+   }
+  },
+  "Gemma-2-9B": {
+   "original": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 559,
+     "accuracy": {
+      "base": 86.67,
+      "end": 69.3,
+      "middle": 75.97
+     },
+     "end_new_errors": 131,
+     "middle_new_errors": 78,
+     "diff": {
+      "point": 9.48,
+      "ci95": [
+       7.01,
+       12.09
+      ],
+      "den": 559
+     },
+     "end_up": 131,
+     "end_down": 0,
+     "protected_to_U": {
+      "end": 0,
+      "middle": 0,
+      "den": 125
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1990,
+     "accuracy": {
+      "base": 73.87,
+      "end": 72.75,
+      "middle": 73.68
+     },
+     "end_new_errors": 197,
+     "middle_new_errors": 90,
+     "diff": {
+      "point": 5.38,
+      "ci95": [
+       4.14,
+       6.65
+      ],
+      "den": 1990
+     },
+     "end_up": 139,
+     "end_down": 58,
+     "protected_to_U": {
+      "end": 7,
+      "middle": 2,
+      "den": 1973
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1286,
+     "accuracy": {
+      "base": 78.51,
+      "end": 78.45,
+      "middle": 78.27
+     },
+     "end_new_errors": 64,
+     "middle_new_errors": 16,
+     "diff": {
+      "point": 3.73,
+      "ci95": [
+       2.53,
+       4.97
+      ],
+      "den": 1286
+     },
+     "end_up": 30,
+     "end_down": 34,
+     "protected_to_U": {
+      "end": 3,
+      "middle": 0,
+      "den": 1238
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 580,
+     "accuracy": {
+      "base": 89.92,
+      "end": 91.01,
+      "middle": 90.39
+     },
+     "end_new_errors": 11,
+     "middle_new_errors": 4,
+     "diff": {
+      "point": 1.21,
+      "ci95": [
+       0.0,
+       2.43
+      ],
+      "den": 580
+     },
+     "end_up": 9,
+     "end_down": 2,
+     "protected_to_U": {
+      "end": 2,
+      "middle": 0,
+      "den": 109
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1991,
+     "accuracy": {
+      "base": 73.9,
+      "end": 71.2,
+      "middle": 74.13
+     },
+     "end_new_errors": 238,
+     "middle_new_errors": 81,
+     "diff": {
+      "point": 7.89,
+      "ci95": [
+       6.51,
+       9.28
+      ],
+      "den": 1991
+     },
+     "end_up": 172,
+     "end_down": 66,
+     "protected_to_U": {
+      "end": 14,
+      "middle": 2,
+      "den": 1975
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1288,
+     "accuracy": {
+      "base": 78.63,
+      "end": 77.53,
+      "middle": 78.45
+     },
+     "end_new_errors": 83,
+     "middle_new_errors": 16,
+     "diff": {
+      "point": 5.2,
+      "ci95": [
+       3.88,
+       6.57
+      ],
+      "den": 1288
+     },
+     "end_up": 34,
+     "end_down": 49,
+     "protected_to_U": {
+      "end": 2,
+      "middle": 0,
+      "den": 1241
+     }
+    }
+   }
+  },
+  "Phi-3.5-mini": {
+   "original": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 573,
+     "accuracy": {
+      "base": 88.84,
+      "end": 77.52,
+      "middle": 79.38
+     },
+     "end_new_errors": 94,
+     "middle_new_errors": 69,
+     "diff": {
+      "point": 4.36,
+      "ci95": [
+       2.44,
+       6.41
+      ],
+      "den": 573
+     },
+     "end_up": 88,
+     "end_down": 6,
+     "protected_to_U": {
+      "end": 2,
+      "middle": 0,
+      "den": 124
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1960,
+     "accuracy": {
+      "base": 72.75,
+      "end": 70.71,
+      "middle": 72.38
+     },
+     "end_new_errors": 243,
+     "middle_new_errors": 69,
+     "diff": {
+      "point": 8.88,
+      "ci95": [
+       7.45,
+       10.34
+      ],
+      "den": 1960
+     },
+     "end_up": 176,
+     "end_down": 67,
+     "protected_to_U": {
+      "end": 25,
+      "middle": 3,
+      "den": 1953
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1205,
+     "accuracy": {
+      "base": 73.57,
+      "end": 72.71,
+      "middle": 73.81
+     },
+     "end_new_errors": 75,
+     "middle_new_errors": 18,
+     "diff": {
+      "point": 4.73,
+      "ci95": [
+       3.38,
+       6.15
+      ],
+      "den": 1205
+     },
+     "end_up": 35,
+     "end_down": 40,
+     "protected_to_U": {
+      "end": 8,
+      "middle": 1,
+      "den": 1155
+     }
+    }
+   },
+   "N2_train_and_inference": {
+    "wikileaks": {
+     "n": 645,
+     "baseline_correct": 558,
+     "accuracy": {
+      "base": 86.51,
+      "end": 89.61,
+      "middle": 87.44
+     },
+     "end_new_errors": 24,
+     "middle_new_errors": 4,
+     "diff": {
+      "point": 3.58,
+      "ci95": [
+       1.8,
+       5.49
+      ],
+      "den": 558
+     },
+     "end_up": 19,
+     "end_down": 5,
+     "protected_to_U": {
+      "end": 5,
+      "middle": 0,
+      "den": 82
+     }
+    },
+    "frus": {
+     "n": 2694,
+     "baseline_correct": 1957,
+     "accuracy": {
+      "base": 72.64,
+      "end": 71.08,
+      "middle": 73.09
+     },
+     "end_new_errors": 192,
+     "middle_new_errors": 66,
+     "diff": {
+      "point": 6.44,
+      "ci95": [
+       5.12,
+       7.8
+      ],
+      "den": 1957
+     },
+     "end_up": 143,
+     "end_down": 49,
+     "protected_to_U": {
+      "end": 14,
+      "middle": 1,
+      "den": 1949
+     }
+    },
+    "cia": {
+     "n": 1638,
+     "baseline_correct": 1179,
+     "accuracy": {
+      "base": 71.98,
+      "end": 70.51,
+      "middle": 71.73
+     },
+     "end_new_errors": 86,
+     "middle_new_errors": 20,
+     "diff": {
+      "point": 5.6,
+      "ci95": [
+       4.14,
+       7.14
+      ],
+      "den": 1179
+     },
+     "end_up": 41,
+     "end_down": 45,
+     "protected_to_U": {
+      "end": 7,
+      "middle": 1,
+      "den": 1130
+     }
+    }
+   }
+  }
+ }
+}

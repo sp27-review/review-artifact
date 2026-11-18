@@ -1,0 +1,209 @@
+{
+ "description": "Greedy generation (8 new tokens) after the classification suffix, 200 documents per input (random sample, seed 7701). exact_label_string: the decoded output is exactly one of the four level names; agrees_with_first_token_readout: same level as the first-token readout used for scoring.",
+ "models": [
+  {
+   "model": "llama8b_cia_ext_gen_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 180,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 200,
+     "correct": 149,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 200,
+     "correct": 158,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 165,
+     "non_label_outputs": 0
+    }
+   }
+  },
+  {
+   "model": "qwen7b_cia_ext_gen_ep2_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 198,
+     "correct": 176,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 157,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 193,
+     "correct": 150,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 163,
+     "non_label_outputs": 0
+    }
+   }
+  },
+  {
+   "model": "mistral7b_cia_ext_gen_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 182,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 200,
+     "correct": 153,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 151,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 197,
+     "correct": 167,
+     "non_label_outputs": 0
+    }
+   }
+  },
+  {
+   "model": "gemma9b_cia_ext_gen_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 200,
+     "correct": 173,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 154,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 198,
+     "correct": 153,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 199,
+     "correct": 163,
+     "non_label_outputs": 0
+    }
+   }
+  },
+  {
+   "model": "phi35_cia_ext_gen_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 198,
+     "correct": 173,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 197,
+     "correct": 163,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 189,
+     "correct": 147,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 193,
+     "correct": 160,
+     "non_label_outputs": 0
+    }
+   }
+  },
+  {
+   "model": "qwen7b_cia_ext_gen_seed7701",
+   "max_new_tokens": 8,
+   "inputs": {
+    "wikileaks_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 193,
+     "correct": 172,
+     "non_label_outputs": 0
+    },
+    "wikileaks_combo": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 188,
+     "correct": 148,
+     "non_label_outputs": 0
+    },
+    "frus_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 194,
+     "correct": 147,
+     "non_label_outputs": 0
+    },
+    "cia_base": {
+     "n": 200,
+     "exact_label_string": 200,
+     "agrees_with_first_token_readout": 195,
+     "correct": 164,
+     "non_label_outputs": 0
+    }
+   }
+  }
+ ]
+}

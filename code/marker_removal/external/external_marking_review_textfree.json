@@ -1,0 +1,2405 @@
+{
+ "scope": "Contextual review decisions for residual marking candidates, bound to source-text hashes and character offsets. Text-free version: the reviewed string and its context are replaced by a SHA-256 of the reviewed string.",
+ "decisions": [
+  {
+   "doc_id": "wikileaks_cable_classifier:10HYDERABAD2_a",
+   "source_text_sha256": "9c08758e4d3ab287abd5f402bab4a390fbe5364c50692b5b7399b42ff0e36598",
+   "start": 1500,
+   "end": 1508,
+   "text_sha256": "44fd3d22a87ab36bd70a0e98755a48423f41f1d7bf5ef6ba68cc744efe32c42c",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:0"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BRASILIA16_a",
+   "source_text_sha256": "2b75a0ffd7ed639df715066882e314a0304df3387d0e0900a7eddb25a6525b8e",
+   "start": 24194,
+   "end": 24202,
+   "text_sha256": "4fca07a7d20fa8e32fc384acc2014ef17f52ff890df9e7b274cde734921c2067",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:1"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STOCKHOLM3_a",
+   "source_text_sha256": "5d394e4372ec79aa044026495a5ee0c21f65453a65f2e180ff26691a64541076",
+   "start": 64,
+   "end": 83,
+   "text_sha256": "9aecafc51663d6a7b23994b26abb255ff1655e26d5dcf711ba149a9afe6900aa",
+   "action": "retain",
+   "reason": "secretary_letter_reference_title",
+   "review_index": "wiki:2"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10RABAT14_a",
+   "source_text_sha256": "54afd0868b6d61836d8b28770ea53f686579bb48ff3e381bb1b97bccc404edc9",
+   "start": 2812,
+   "end": 2883,
+   "text_sha256": "d0886a8290011b0bc87a6fb158d81fd66a60210f314070c818957e4ff326f558",
+   "action": "retain",
+   "reason": "email_network_description",
+   "review_index": "wiki:3"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10TAIPEI68_a",
+   "source_text_sha256": "c6941e2ac71f6284397e01833a9c955e043685e443f0fc82fec17d7b3d1d9ea0",
+   "start": 4449,
+   "end": 4455,
+   "text_sha256": "21b77bd720b0462994260048a0bdd7ec6500051da4283c07c5d125e0c722db4c",
+   "action": "retain",
+   "reason": "multiplication_or_24x7_availability",
+   "review_index": "wiki:4"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10KABUL127_a",
+   "source_text_sha256": "91d03562a30173b12cb7aacc21a3fc147a0ffbf72f0302dd99895d346b202a9e",
+   "start": 4788,
+   "end": 4794,
+   "text_sha256": "73af853ef7b542795c80e052882449730913d30f62aae2ae661eaa9888c1e136",
+   "action": "retain",
+   "reason": "multiplication_or_24x7_availability",
+   "review_index": "wiki:5"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10HONGKONG100_a",
+   "source_text_sha256": "0476f50f7e36a56c0dab808b870fcdb8ecdfbc124445e893ae47107069342abc",
+   "start": 10,
+   "end": 13,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "reference_list_label",
+   "review_index": "wiki:6"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STATE5792_a",
+   "source_text_sha256": "d4699307b584c6c68dd1445a05a6661db204500f7e38b56cf79c24e64bbcea33",
+   "start": 551,
+   "end": 567,
+   "text_sha256": "d6137e969a35fce7d210bfc152959bd19d4c0abe858d770a7745030a1dddf01a",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:7"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BOGOTA91_a",
+   "source_text_sha256": "e71772d47351821ea039da28a0f6bd018cb3fee6660a802b913b9018d83d4bb7",
+   "start": 1924,
+   "end": 1933,
+   "text_sha256": "0e9550027caae4ae0f8eb889e6a86ac90a9a04e3a6e902f622bd655e89b5d507",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:8"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10GENEVA94_a",
+   "source_text_sha256": "229378bd3336aae53cfd9af1d3b6ae5bf29733a2fee071ff9691096f8ef83163",
+   "start": 6433,
+   "end": 6457,
+   "text_sha256": "0e8444b3391a393858eaeb1f00ccccabc6082ac85ac951ccc5b36de1a9c9c07f",
+   "action": "retain",
+   "reason": "study_title",
+   "review_index": "wiki:9"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10ADDISABABA186_a",
+   "source_text_sha256": "f2e555cff0e084a0198eab96f64631c1c29b2d09cce085d83ec50c75f595a891",
+   "start": 621,
+   "end": 628,
+   "text_sha256": "70f9eca4faa38e605137664304af270ae8a1b8f3b3def275785746f1b76143ad",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:10"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10PARIS130_a",
+   "source_text_sha256": "24e9dafd91c79b581be56fce7a3a418bbc98179c876166fd74abca79467b4915",
+   "start": 4248,
+   "end": 4272,
+   "text_sha256": "3b76e9b39945926627935391b2571f00b46500389ff956404e6563e793b20410",
+   "action": "retain",
+   "reason": "equipment_description",
+   "review_index": "wiki:11"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STATE11689_a",
+   "source_text_sha256": "1cd26531b2447ae532220074a9b43b4bef829f08e47bbf67cf4b27a4c99c1b9e",
+   "start": 18,
+   "end": 26,
+   "text_sha256": "917be503ea6596707cfc21d3935f4ac6f0016371b397bdc8b42648e23dd6aaf0",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:12"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STATE11689_a",
+   "source_text_sha256": "1cd26531b2447ae532220074a9b43b4bef829f08e47bbf67cf4b27a4c99c1b9e",
+   "start": 152,
+   "end": 160,
+   "text_sha256": "917be503ea6596707cfc21d3935f4ac6f0016371b397bdc8b42648e23dd6aaf0",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:13"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STATE11689_a",
+   "source_text_sha256": "1cd26531b2447ae532220074a9b43b4bef829f08e47bbf67cf4b27a4c99c1b9e",
+   "start": 1401,
+   "end": 1409,
+   "text_sha256": "917be503ea6596707cfc21d3935f4ac6f0016371b397bdc8b42648e23dd6aaf0",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:14"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10USUNNEWYORK73_a",
+   "source_text_sha256": "c1e2a6e7a315be6242e7d5ec6ecf4d4aa73404772f8b2e5f1288cedb19346419",
+   "start": 8878,
+   "end": 8887,
+   "text_sha256": "4f716b58b7e3c6b930a7176ccb06c049782ded5ae4c7ab3f2de984535f5508ab",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:15"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10PRETORIA290_a",
+   "source_text_sha256": "9bb20212b0c72369f53635f8f7c4fcdce2a6f9b6509e3e25d859932b378b20f1",
+   "start": 16605,
+   "end": 16609,
+   "text_sha256": "799e00fce54b2265fd03604a0ae188df21989481bd0d00347f6acc1c49f88a0b",
+   "action": "retain",
+   "reason": "multiplication_or_24x7_availability",
+   "review_index": "wiki:16"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10ROME172_a",
+   "source_text_sha256": "28f763b3e9d982bd621edd69909a37b38e6d55084668d0e5404c5ab69b747576",
+   "start": 1909,
+   "end": 1916,
+   "text_sha256": "3b783a81a88fa8c848df77e9f9a896aba4a1469021b55e66893d9c26dc4b0239",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:17"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10CDGENEVA75_a",
+   "source_text_sha256": "6b7e5d90bce5e005073608aed4c0e4858309eb5470f724c15fe921235feef9cd",
+   "start": 2704,
+   "end": 2712,
+   "text_sha256": "7271bc81946ecca9e736fdf5b37213de9b1f4b247755672b269e9e49f9971d1a",
+   "action": "retain",
+   "reason": "conversion_or_elimination_abbreviation",
+   "review_index": "wiki:18"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10TBILISI196_a",
+   "source_text_sha256": "57627ade4d30ee1a593fa1703210702736c0ada431fc6465f9ac1e05b30c9579",
+   "start": 3084,
+   "end": 3089,
+   "text_sha256": "ce014b26908f1c22bf7cfcfaa6591a025693fcacfc1fd9fa0a67380dfe750397",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:19"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10FREETOWN67_a",
+   "source_text_sha256": "860725fc89d47f48d8cc96cc1c37ebe39da375a76cd87f9a9e67ada631bfc5bd",
+   "start": 6643,
+   "end": 6652,
+   "text_sha256": "553b01eafb9e830081a4ffd1f895d71765c0cf0e82e896782503b3ee120ae5b4",
+   "action": "retain",
+   "reason": "reference_C_cross_reference",
+   "review_index": "wiki:20"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10FREETOWN67_a",
+   "source_text_sha256": "860725fc89d47f48d8cc96cc1c37ebe39da375a76cd87f9a9e67ada631bfc5bd",
+   "start": 16126,
+   "end": 16135,
+   "text_sha256": "553b01eafb9e830081a4ffd1f895d71765c0cf0e82e896782503b3ee120ae5b4",
+   "action": "retain",
+   "reason": "reference_C_cross_reference",
+   "review_index": "wiki:21"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10FREETOWN67_a",
+   "source_text_sha256": "860725fc89d47f48d8cc96cc1c37ebe39da375a76cd87f9a9e67ada631bfc5bd",
+   "start": 25397,
+   "end": 25406,
+   "text_sha256": "553b01eafb9e830081a4ffd1f895d71765c0cf0e82e896782503b3ee120ae5b4",
+   "action": "retain",
+   "reason": "reference_C_cross_reference",
+   "review_index": "wiki:22"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10GENEVA49_a",
+   "source_text_sha256": "1e63cc380a6b92e2e0202b0451432cff5950846083dcce56faeca82ad1932c92",
+   "start": 3936,
+   "end": 3944,
+   "text_sha256": "7271bc81946ecca9e736fdf5b37213de9b1f4b247755672b269e9e49f9971d1a",
+   "action": "retain",
+   "reason": "conversion_or_elimination_abbreviation",
+   "review_index": "wiki:23"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10GENEVA87_a",
+   "source_text_sha256": "e341e804632cd38156c70aea0965b8fea26f5700a6f20a65486d8c8037b347c6",
+   "start": 4922,
+   "end": 4930,
+   "text_sha256": "7271bc81946ecca9e736fdf5b37213de9b1f4b247755672b269e9e49f9971d1a",
+   "action": "retain",
+   "reason": "conversion_or_elimination_abbreviation",
+   "review_index": "wiki:24"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10STATE15563_a",
+   "source_text_sha256": "d0c02f8b2a8cc39f66dbbd7795c8972ab4824e77271c7fe87bd063fba6b916de",
+   "start": 26255,
+   "end": 26289,
+   "text_sha256": "1aed21db60f394d412105b8b6de89a4893758063292f91314fe93a5e138526ac",
+   "action": "retain",
+   "reason": "reviewed_organization_place_system_or_document_identifier",
+   "review_index": "wiki:25"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10THEHAGUE109_a",
+   "source_text_sha256": "fe898a9d8dd871c8bff4a751a8a979fd5545ebbffdc871c7c6827297904248c7",
+   "start": 61,
+   "end": 64,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_grade_after_cited_cable",
+   "review_index": "wiki:26"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v13",
+   "source_text_sha256": "9cd2bb32878c96e2c2a1c7d56dd1d3b3cfb1c9c4dd5300f3e05e73d73d742226",
+   "start": 3079,
+   "end": 3087,
+   "text_sha256": "ac0d2de5283257e671dc098b32db15ca1b22fde114d4b4ba78faed444bcd7b37",
+   "action": "retain",
+   "reason": "radio_frequency_band",
+   "review_index": "frus:0"
+  },
+  {
+   "doc_id": "frus_sachn:d352_frus1977-80v15",
+   "source_text_sha256": "50582b0e050be955ab5818a180de11577d1ef51be236760ba2480170d559c71e",
+   "start": 41,
+   "end": 44,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:1"
+  },
+  {
+   "doc_id": "frus_sachn:d377_frus1977-80v15",
+   "source_text_sha256": "3f4cec6808d3c0c084e4057eb942286cfd94b62d13669728700db6dbab454b98",
+   "start": 16,
+   "end": 19,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:2"
+  },
+  {
+   "doc_id": "frus_sachn:d488_frus1977-80v15",
+   "source_text_sha256": "2c285d0b9de3aedff0f94fea8feb253cb139194996d5975899f6abd3ecf38866",
+   "start": 13470,
+   "end": 13473,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:3"
+  },
+  {
+   "doc_id": "frus_sachn:d495_frus1977-80v15",
+   "source_text_sha256": "c5fede462f669ff35ef42c7320acd6d4a976f406e86b17800865a4ce61b88ecd",
+   "start": 42,
+   "end": 45,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:4"
+  },
+  {
+   "doc_id": "frus_sachn:d103_frus1977-80v16",
+   "source_text_sha256": "d9a4f633c3d9803c452a80908fe7f01d9f6b3d865f622081bf86b76e0665af34",
+   "start": 46,
+   "end": 49,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:5"
+  },
+  {
+   "doc_id": "frus_sachn:d144_frus1977-80v17p2",
+   "source_text_sha256": "0e736a4e1e7f9c9ca6b74651774c0bd64147790c9ca02f88feb6cde6d6fd0e54",
+   "start": 5937,
+   "end": 5952,
+   "text_sha256": "9a7681e6ecb0182801aee417e5edeedeafec687d8aac5a513ee4b3f6b00a9cef",
+   "action": "retain",
+   "reason": "secret_police_description",
+   "review_index": "frus:6"
+  },
+  {
+   "doc_id": "frus_sachn:d153_frus1977-80v17p2",
+   "source_text_sha256": "074269da4f692a21d1f9d20bc25bc2c48590ce24c8f2fb69197452208f9ec2cb",
+   "start": 34,
+   "end": 37,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:7"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 605,
+   "end": 608,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:8"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 2786,
+   "end": 2789,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:9"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 3962,
+   "end": 3965,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:10"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 6262,
+   "end": 6265,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:11"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 6958,
+   "end": 6961,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:12"
+  },
+  {
+   "doc_id": "frus_sachn:d164_frus1977-80v17p3",
+   "source_text_sha256": "d5a3ba6ae85d27e92efea82daa1357b1bc22267e207960d9ae1987c68e01a9cb",
+   "start": 9502,
+   "end": 9505,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:13"
+  },
+  {
+   "doc_id": "frus_sachn:d225_frus1977-80v18",
+   "source_text_sha256": "fb43306f3f90694a7cee611fb83a91b09fd74a4bed376bf662b14712623ac6f7",
+   "start": 106,
+   "end": 109,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:14"
+  },
+  {
+   "doc_id": "frus_sachn:d266_frus1977-80v18",
+   "source_text_sha256": "e2237195de544c6c3ddab2e497d803ced004fa786d4d5747bc41b2ad3191749b",
+   "start": 228,
+   "end": 231,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:15"
+  },
+  {
+   "doc_id": "frus_sachn:d152_frus1977-80v19",
+   "source_text_sha256": "9b9865f79907c8a67210d01db5f80de6349c44fb57161d52d02b3d738c544817",
+   "start": 10299,
+   "end": 10302,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "retain",
+   "reason": "Congress_S_political_party",
+   "review_index": "frus:16"
+  },
+  {
+   "doc_id": "frus_sachn:d228_frus1977-80v20",
+   "source_text_sha256": "03c5f8027e4d505e4754d19772436ddc3527d6ee6d7e78ba5d62f6afa6a277a8",
+   "start": 6420,
+   "end": 6423,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:17"
+  },
+  {
+   "doc_id": "frus_sachn:d296_frus1977-80v20",
+   "source_text_sha256": "5a85ca920e37515f6e373436a8f8bf487a4ffdaac1305dfcf5a69e32bbc29eca",
+   "start": 11419,
+   "end": 11422,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:18"
+  },
+  {
+   "doc_id": "frus_sachn:d105_frus1977-80v24",
+   "source_text_sha256": "2895553cc6a2b8943e8adacf73795582cdab14a0d87f1479fc0dfb81e0815bec",
+   "start": 1112,
+   "end": 1115,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:19"
+  },
+  {
+   "doc_id": "frus_sachn:d115_frus1977-80v24",
+   "source_text_sha256": "ffaccafb0ce774a6f10d6810f4e97371fd6869650b56fe1e851a30e9b83b7058",
+   "start": 11052,
+   "end": 11055,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:20"
+  },
+  {
+   "doc_id": "frus_sachn:d141_frus1977-80v24",
+   "source_text_sha256": "5abc3688b8571a39c78b7970f872a58f300989af57644d0eddd8233c2f7c6a68",
+   "start": 690,
+   "end": 693,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:21"
+  },
+  {
+   "doc_id": "frus_sachn:d185_frus1977-80v24",
+   "source_text_sha256": "2d4fb9962b3965729b8593db0e5b71b00a3c97846348f31960a80e0f480bb0da",
+   "start": 8230,
+   "end": 8233,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:22"
+  },
+  {
+   "doc_id": "frus_sachn:d185_frus1977-80v24",
+   "source_text_sha256": "2d4fb9962b3965729b8593db0e5b71b00a3c97846348f31960a80e0f480bb0da",
+   "start": 8489,
+   "end": 8492,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:23"
+  },
+  {
+   "doc_id": "frus_sachn:d212_frus1977-80v24",
+   "source_text_sha256": "0cab334f99516be7f275594e8d354124b95d34b118d304360518b9a71c767744",
+   "start": 9425,
+   "end": 9428,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:24"
+  },
+  {
+   "doc_id": "frus_sachn:d254_frus1977-80v24",
+   "source_text_sha256": "9bfd925c307cadd18ebde49ed7a6b8b3dc9fa922214fa7a53062fbeda42c7573",
+   "start": 4942,
+   "end": 4945,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:25"
+  },
+  {
+   "doc_id": "frus_sachn:d284_frus1977-80v24",
+   "source_text_sha256": "4ac8ca53dc338feaa8f24be56a6ee6f88e5404beb4cadcb4490de946a050cb22",
+   "start": 10146,
+   "end": 10149,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:26"
+  },
+  {
+   "doc_id": "frus_sachn:d296_frus1977-80v24",
+   "source_text_sha256": "da994807e15882e8d1d98f4f379f515b7bd92eaf0ab89bb96d9cc73be4a792ba",
+   "start": 7726,
+   "end": 7729,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:27"
+  },
+  {
+   "doc_id": "frus_sachn:d341_frus1977-80v24",
+   "source_text_sha256": "49619a9630911bc99c53682ec4192ac9c3b64c044c76415fc7cc7f7aaae1efa6",
+   "start": 2334,
+   "end": 2337,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:28"
+  },
+  {
+   "doc_id": "frus_sachn:d114_frus1977-80v26",
+   "source_text_sha256": "f74ae7735d248e69df5c70fc05ed27acbe1a784bac6f37edf6b2674b69a755e3",
+   "start": 1444,
+   "end": 1447,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "reference_C_enumeration",
+   "review_index": "frus:29"
+  },
+  {
+   "doc_id": "frus_sachn:d120_frus1977-80v26",
+   "source_text_sha256": "a737920742cfd31e9796f56a3caa6961f6b9052bdecaa3047b69b3c4ecf27bda",
+   "start": 36,
+   "end": 39,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:30"
+  },
+  {
+   "doc_id": "frus_sachn:d167_frus1977-80v26",
+   "source_text_sha256": "9661c62d9f5cb536ce66bc8647f37f4414313d296e025f15159584fc9f45075e",
+   "start": 543,
+   "end": 546,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:31"
+  },
+  {
+   "doc_id": "frus_sachn:d167_frus1977-80v26",
+   "source_text_sha256": "9661c62d9f5cb536ce66bc8647f37f4414313d296e025f15159584fc9f45075e",
+   "start": 2086,
+   "end": 2089,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:32"
+  },
+  {
+   "doc_id": "frus_sachn:d448_frus1977-80v26",
+   "source_text_sha256": "cd951c5c55326c0160c989fb01e23e9321ac7256c45d8b320af3c7d751bbd1aa",
+   "start": 110,
+   "end": 113,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:33"
+  },
+  {
+   "doc_id": "frus_sachn:d459_frus1977-80v26",
+   "source_text_sha256": "73ca3a0b599836f55ae4a5b14093e10f6d663f7fa848737660e75fe0c90afdd8",
+   "start": 4769,
+   "end": 4772,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "reftel_C_reference",
+   "review_index": "frus:34"
+  },
+  {
+   "doc_id": "frus_sachn:d459_frus1977-80v26",
+   "source_text_sha256": "73ca3a0b599836f55ae4a5b14093e10f6d663f7fa848737660e75fe0c90afdd8",
+   "start": 6152,
+   "end": 6155,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "reftel_C_reference",
+   "review_index": "frus:35"
+  },
+  {
+   "doc_id": "frus_sachn:d43_frus1961-63v01",
+   "source_text_sha256": "3a732bf87c82ef2de762124c5660c436d576ec164531108682f142123241852f",
+   "start": 6130,
+   "end": 6133,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "OSD_office_code",
+   "review_index": "frus:36"
+  },
+  {
+   "doc_id": "frus_sachn:d241_frus1961-63v03",
+   "source_text_sha256": "c9198513778601dbf2f0a4fe4b39b36545dfa01d9216a91eb3c06ab63df3292d",
+   "start": 915,
+   "end": 965,
+   "text_sha256": "b8f7b66017ff91e216bec1f612bef5e055540840d8340d17422cecd979a8074b",
+   "action": "retain",
+   "reason": "secret_police_description",
+   "review_index": "frus:37"
+  },
+  {
+   "doc_id": "frus_sachn:d263_frus1961-63v03",
+   "source_text_sha256": "36d14844a1c0c569962ccd28fd5b42aeff88a376313dd4b93c3cff47890467dd",
+   "start": 3423,
+   "end": 3426,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:38"
+  },
+  {
+   "doc_id": "frus_sachn:d263_frus1961-63v03",
+   "source_text_sha256": "36d14844a1c0c569962ccd28fd5b42aeff88a376313dd4b93c3cff47890467dd",
+   "start": 3507,
+   "end": 3510,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:39"
+  },
+  {
+   "doc_id": "frus_sachn:d263_frus1961-63v03",
+   "source_text_sha256": "36d14844a1c0c569962ccd28fd5b42aeff88a376313dd4b93c3cff47890467dd",
+   "start": 3542,
+   "end": 3545,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:40"
+  },
+  {
+   "doc_id": "frus_sachn:d263_frus1961-63v03",
+   "source_text_sha256": "36d14844a1c0c569962ccd28fd5b42aeff88a376313dd4b93c3cff47890467dd",
+   "start": 3628,
+   "end": 3631,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:41"
+  },
+  {
+   "doc_id": "frus_sachn:d272_frus1961-63v03",
+   "source_text_sha256": "f4ec5f2c31cc84baf98643bc86ff489acb51a2bd7865c75fe7242a3988a1b88d",
+   "start": 1398,
+   "end": 1401,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:42"
+  },
+  {
+   "doc_id": "frus_sachn:d272_frus1961-63v03",
+   "source_text_sha256": "f4ec5f2c31cc84baf98643bc86ff489acb51a2bd7865c75fe7242a3988a1b88d",
+   "start": 1420,
+   "end": 1423,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:43"
+  },
+  {
+   "doc_id": "frus_sachn:d272_frus1961-63v04",
+   "source_text_sha256": "ee98f1c04b5b319808374694edcb6895ad0b21588b0faacfb6fef86ad2d9cd02",
+   "start": 6399,
+   "end": 6414,
+   "text_sha256": "e9a76a701241770a00612109d6c7c3857a25822cb1f1a371e3c1de3ebc1584ab",
+   "action": "retain",
+   "reason": "chief_of_staff_title",
+   "review_index": "frus:44"
+  },
+  {
+   "doc_id": "frus_sachn:d272_frus1961-63v04",
+   "source_text_sha256": "ee98f1c04b5b319808374694edcb6895ad0b21588b0faacfb6fef86ad2d9cd02",
+   "start": 8357,
+   "end": 8372,
+   "text_sha256": "e9a76a701241770a00612109d6c7c3857a25822cb1f1a371e3c1de3ebc1584ab",
+   "action": "retain",
+   "reason": "chief_of_staff_title",
+   "review_index": "frus:45"
+  },
+  {
+   "doc_id": "frus_sachn:d19_frus1961-63v07-09mSupp",
+   "source_text_sha256": "e0c124c54734b8aa063432a93fefd756ddd36a7532071e8fff4eba56fefe67c4",
+   "start": 2629,
+   "end": 2632,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "alternative_C_reference",
+   "review_index": "frus:46"
+  },
+  {
+   "doc_id": "frus_sachn:d714_frus1961-63v10-12mSupp",
+   "source_text_sha256": "3da0b213ff234c8926124f884c8aa609ad30550c9dc14f93057e9740b3cca9dc",
+   "start": 454,
+   "end": 457,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:47"
+  },
+  {
+   "doc_id": "frus_sachn:d329_frus1961-63v12",
+   "source_text_sha256": "312678bba6d11b58fac27fbf06345e876d6f84e245d72316a58ed925578c6f2f",
+   "start": 465,
+   "end": 479,
+   "text_sha256": "9b0ad0d07461458c5690868b402f28bd05e4e91dfa07bbd6e82cd6824d36c72d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:48"
+  },
+  {
+   "doc_id": "frus_sachn:d171_frus1961-63v25",
+   "source_text_sha256": "f352759e29bbcdf8c4a97dfa9aa9b8d2d7f2e3871b938cb78e9c9d885dcd506f",
+   "start": 14910,
+   "end": 14913,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "option_C_reference",
+   "review_index": "frus:49"
+  },
+  {
+   "doc_id": "frus_sachn:d65_frus1964-68v01",
+   "source_text_sha256": "5059d53dde4d2fa734b9b5649f4d9c6717e03f06c63b50e0c2ee9f9ebf526bdd",
+   "start": 215,
+   "end": 218,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:50"
+  },
+  {
+   "doc_id": "frus_sachn:d298_frus1964-68v01",
+   "source_text_sha256": "819e183531186cb3567a3093bad2d2ca86346e9c7482f2e1d009dca064937e5d",
+   "start": 2527,
+   "end": 2538,
+   "text_sha256": "0a4fb5cc4ebe72c87e13351c2432e8538ef690d567678de8e50bb2fc116409e3",
+   "action": "retain",
+   "reason": "person_U_Thant",
+   "review_index": "frus:51"
+  },
+  {
+   "doc_id": "frus_sachn:d337_frus1964-68v02",
+   "source_text_sha256": "f84a061ccf304b4460a751188320f0642de76681790aeebbee773b31d6de9b6e",
+   "start": 50,
+   "end": 53,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:52"
+  },
+  {
+   "doc_id": "frus_sachn:d1_frus1964-68v04",
+   "source_text_sha256": "3e16cf4d17920b59ea06a6b80ac3282b5ea3d29afaaaa187ab1bbd124c147148",
+   "start": 18951,
+   "end": 18954,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "paragraph_C_reference",
+   "review_index": "frus:53"
+  },
+  {
+   "doc_id": "frus_sachn:d205_frus1964-68v04",
+   "source_text_sha256": "80556ac98dd3883ae27c626b7b07c88c9fe16e3936a05a3a5c07c136ce6aca36",
+   "start": 44,
+   "end": 49,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:54"
+  },
+  {
+   "doc_id": "frus_sachn:d418_frus1964-68v05",
+   "source_text_sha256": "0d3622b4fe24c3bd9642f552b3536ed59a6d7b07db966b6232f23bbd7edc8b7d",
+   "start": 1312,
+   "end": 1315,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:55"
+  },
+  {
+   "doc_id": "frus_sachn:d299_frus1964-68v06",
+   "source_text_sha256": "64c8c9fa03cf4f547841f319916fd8932ddba8bcc19802cc949fecbb4aa81de3",
+   "start": 4497,
+   "end": 4500,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "point_C_reference",
+   "review_index": "frus:56"
+  },
+  {
+   "doc_id": "frus_sachn:d639_frus1964-68v24",
+   "source_text_sha256": "0f94b1e7e293c50018fb089344fabcff2df3c63b90fe91a0e659c56e64a4fcdd",
+   "start": 5037,
+   "end": 5042,
+   "text_sha256": "6d13034aec2e718f64e6b386ef597742028208fd89fc7661c41c10013dc3e9d5",
+   "action": "retain",
+   "reason": "UN_resolution_session_number",
+   "review_index": "frus:57"
+  },
+  {
+   "doc_id": "frus_sachn:d222_frus1964-68v27",
+   "source_text_sha256": "9c11ff525de162cebccd6a1a166080dfdbcc0924152161b25a1199247e34aa18",
+   "start": 299,
+   "end": 305,
+   "text_sha256": "71267e507fe1f7d5960499409018e567573743f3c217d601dec6e5dc5986636e",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:58"
+  },
+  {
+   "doc_id": "frus_sachn:d256_frus1964-68v27",
+   "source_text_sha256": "9c873ce2c753a444ec30c30735a37685ef817988ef9729c2912f9c81bdc99fa5",
+   "start": 253,
+   "end": 256,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:59"
+  },
+  {
+   "doc_id": "frus_sachn:d256_frus1964-68v27",
+   "source_text_sha256": "9c873ce2c753a444ec30c30735a37685ef817988ef9729c2912f9c81bdc99fa5",
+   "start": 1056,
+   "end": 1059,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:60"
+  },
+  {
+   "doc_id": "frus_sachn:d256_frus1964-68v27",
+   "source_text_sha256": "9c873ce2c753a444ec30c30735a37685ef817988ef9729c2912f9c81bdc99fa5",
+   "start": 1243,
+   "end": 1246,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:61"
+  },
+  {
+   "doc_id": "frus_sachn:d256_frus1964-68v27",
+   "source_text_sha256": "9c873ce2c753a444ec30c30735a37685ef817988ef9729c2912f9c81bdc99fa5",
+   "start": 1927,
+   "end": 1930,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:62"
+  },
+  {
+   "doc_id": "frus_sachn:d263_frus1964-68v27",
+   "source_text_sha256": "bfd5caaa6227b3363a190877b2b235299996ebcfe060a8acfee81a7b91be6468",
+   "start": 79,
+   "end": 82,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:63"
+  },
+  {
+   "doc_id": "frus_sachn:d337_frus1964-68v27",
+   "source_text_sha256": "b8ccf7f8dd0cd5b5f29897aefef71fae3301a1dc9105df0202adfee73d2f31f3",
+   "start": 15424,
+   "end": 15427,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "subparagraph_C_reference",
+   "review_index": "frus:64"
+  },
+  {
+   "doc_id": "frus_sachn:d21_frus1964-68v28",
+   "source_text_sha256": "b0bb5eefe431aff50f152648e3949bba906d7e57caa352e6ffde005529920acf",
+   "start": 180,
+   "end": 186,
+   "text_sha256": "71267e507fe1f7d5960499409018e567573743f3c217d601dec6e5dc5986636e",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:65"
+  },
+  {
+   "doc_id": "frus_sachn:d276_frus1964-68v28",
+   "source_text_sha256": "0a326c3a1d169cf00fdec0605d651fc68cd6c1e668bc17c8fc419477f1223277",
+   "start": 53,
+   "end": 56,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:66"
+  },
+  {
+   "doc_id": "frus_sachn:d278_frus1964-68v28",
+   "source_text_sha256": "488b4e44c98a0ab565256e84d5e9aa6f1d8960cbd583cbfc6c4bbd4600a2c897",
+   "start": 80,
+   "end": 83,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:67"
+  },
+  {
+   "doc_id": "frus_sachn:d360_frus1964-68v28",
+   "source_text_sha256": "d79da67e6aab302173242c00aebe118e50738e85e31c2c6638a9ad059f833d9e",
+   "start": 3804,
+   "end": 3807,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "subparagraph_C_reference",
+   "review_index": "frus:68"
+  },
+  {
+   "doc_id": "frus_sachn:d360_frus1964-68v28",
+   "source_text_sha256": "d79da67e6aab302173242c00aebe118e50738e85e31c2c6638a9ad059f833d9e",
+   "start": 5982,
+   "end": 5985,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "subparagraph_C_reference",
+   "review_index": "frus:69"
+  },
+  {
+   "doc_id": "frus_sachn:d371_frus1964-68v28",
+   "source_text_sha256": "855eb83099fee2681ebd732aa9c5a6d85c082cd868cfd3a64e7d4a466fad5b62",
+   "start": 8717,
+   "end": 8720,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:70"
+  },
+  {
+   "doc_id": "frus_sachn:d209_frus1964-68v31",
+   "source_text_sha256": "93ed02476d2a9aa78f0c1544769b09acfa6e8f1e1768ba68608053db0418126a",
+   "start": 2620,
+   "end": 2623,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "legal_article_subsection",
+   "review_index": "frus:71"
+  },
+  {
+   "doc_id": "frus_sachn:d514_frus1964-68v31",
+   "source_text_sha256": "f09dcac2dce801df6b69c3aa8ebb0d5d55e074324104b21885dd3a58ca0ebadd",
+   "start": 1376,
+   "end": 1379,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "reference_C_enumeration",
+   "review_index": "frus:72"
+  },
+  {
+   "doc_id": "frus_sachn:d349_frus1964-68v32",
+   "source_text_sha256": "9b9bfd6608c0ad4625fc164298e2dfe6fd63f01ff2bdba8859370f4e068dc975",
+   "start": 14816,
+   "end": 14819,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "subparagraph_C_reference",
+   "review_index": "frus:73"
+  },
+  {
+   "doc_id": "frus_sachn:d215_frus1969-76v02",
+   "source_text_sha256": "0327d859a30f96fd24f126584836cdb24f57f0ac39bd216faf0f74769414cf72",
+   "start": 903,
+   "end": 906,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:74"
+  },
+  {
+   "doc_id": "frus_sachn:d215_frus1969-76v02",
+   "source_text_sha256": "0327d859a30f96fd24f126584836cdb24f57f0ac39bd216faf0f74769414cf72",
+   "start": 2846,
+   "end": 2849,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:75"
+  },
+  {
+   "doc_id": "frus_sachn:d385_frus1969-76v04",
+   "source_text_sha256": "5d1b4921c30da8f92b0dace3813bf15c378c9a7dc5d0e7c7502aa0564100914b",
+   "start": 1665,
+   "end": 1668,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "option_C_reference",
+   "review_index": "frus:76"
+  },
+  {
+   "doc_id": "frus_sachn:d385_frus1969-76v04",
+   "source_text_sha256": "5d1b4921c30da8f92b0dace3813bf15c378c9a7dc5d0e7c7502aa0564100914b",
+   "start": 3299,
+   "end": 3302,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "option_C_reference",
+   "review_index": "frus:77"
+  },
+  {
+   "doc_id": "frus_sachn:d118_frus1969-76v08",
+   "source_text_sha256": "6a6319d865f2b1ab499110141016dfad7978872302481b76adba1de00bc8f98a",
+   "start": 57,
+   "end": 60,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:78"
+  },
+  {
+   "doc_id": "frus_sachn:d142_frus1969-76v08",
+   "source_text_sha256": "f84cbe7f6bc5069da495585d6abf56090d818e93e55469db69b876c4a55641bb",
+   "start": 38,
+   "end": 41,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:79"
+  },
+  {
+   "doc_id": "frus_sachn:d157_frus1969-76v08",
+   "source_text_sha256": "b7351f015e83c4e364413605fc6cfd5394220bbe7147e10c6ca0c55fbc39b262",
+   "start": 54,
+   "end": 60,
+   "text_sha256": "71267e507fe1f7d5960499409018e567573743f3c217d601dec6e5dc5986636e",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:80"
+  },
+  {
+   "doc_id": "frus_sachn:d173_frus1969-76v08",
+   "source_text_sha256": "377d56110e3bd7250daeb7fb605f783930292cf00316f8b55cee1ce37ebec8e6",
+   "start": 67,
+   "end": 70,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:81"
+  },
+  {
+   "doc_id": "frus_sachn:d183_frus1969-76v08",
+   "source_text_sha256": "8249a1579a82c8e4cccf99dbdc9cdfc177343fe5bae8b05b9a36297393f4b69e",
+   "start": 68,
+   "end": 71,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:82"
+  },
+  {
+   "doc_id": "frus_sachn:d190_frus1969-76v08",
+   "source_text_sha256": "4efe42f6b030918b444adbccf190bdc7e6c33ff7805b3a73774946f479abb148",
+   "start": 54,
+   "end": 57,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:83"
+  },
+  {
+   "doc_id": "frus_sachn:d184_frus1969-76v09",
+   "source_text_sha256": "0043b78d08ac356695eb9bafb08c6a3455b155dc0f26da6c2268d8364090f842",
+   "start": 90,
+   "end": 93,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:84"
+  },
+  {
+   "doc_id": "frus_sachn:d211_frus1969-76v09",
+   "source_text_sha256": "4e2fb011a411b80ffd4b56b597109e20f2fac95f42c04409aa6d240265cec252",
+   "start": 94,
+   "end": 97,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:85"
+  },
+  {
+   "doc_id": "frus_sachn:d222_frus1969-76v09",
+   "source_text_sha256": "cb373d89bde4949d950ab6e7d6d2b92aff84b2f18b61ec8b1ab67d7bb06d3b31",
+   "start": 91,
+   "end": 94,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:86"
+  },
+  {
+   "doc_id": "frus_sachn:d27_frus1969-76v23",
+   "source_text_sha256": "83c9cba30362bcbac548bd640033a5cab700e1148f913bfd59f0589e143e5aed",
+   "start": 2570,
+   "end": 2581,
+   "text_sha256": "b602b13a212589e3be5018dc2d7e0d518a34aa20487f1cf6ccce034e07af2943",
+   "action": "retain",
+   "reason": "executive_secretariat_office",
+   "review_index": "frus:87"
+  },
+  {
+   "doc_id": "frus_sachn:d4_frus1969-76v24",
+   "source_text_sha256": "6b3efe9ec52303327c6613b226686c463404f50101b9a527e63cdb72e193fc01",
+   "start": 1278,
+   "end": 1330,
+   "text_sha256": "c6f6bc38300366e8dfcdd0f58d71c9746be8810a121873a0cce35ca8cecd96a6",
+   "action": "retain",
+   "reason": "Senate_resolution_number",
+   "review_index": "frus:88"
+  },
+  {
+   "doc_id": "frus_sachn:d54_frus1969-76v28",
+   "source_text_sha256": "fed6e12b4ad5e5450c605ccb63b124a2b0ed46ccb39ae955f42e2332cd0ac4bb",
+   "start": 3928,
+   "end": 3931,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "option_C_reference",
+   "review_index": "frus:89"
+  },
+  {
+   "doc_id": "frus_sachn:d106_frus1969-76v34",
+   "source_text_sha256": "5b467cc3bc97561e190694ebb34c90e8aabeeba6cb3db2773d52f60fd15cddca",
+   "start": 17250,
+   "end": 17329,
+   "text_sha256": "4269ccbd2c2d672aaf933defba3c123520cd340c9f30e3a8e41dec9ba194840a",
+   "action": "retain",
+   "reason": "expanded_ULMS_acronym",
+   "review_index": "frus:90"
+  },
+  {
+   "doc_id": "frus_sachn:d118_frus1969-76v34",
+   "source_text_sha256": "6d773b6a651e1d4730471de6df08bef46672273da8066362347beb2d141201bc",
+   "start": 6596,
+   "end": 6604,
+   "text_sha256": "ec24de04abad87982df4756569916887b36e5fa3812375b4b14a9a82a6121d3e",
+   "action": "retain",
+   "reason": "radio_frequency_band",
+   "review_index": "frus:91"
+  },
+  {
+   "doc_id": "frus_sachn:d129_frus1969-76v34",
+   "source_text_sha256": "161032f6266f94aca161003bbe156a38485ea1b8c307fd63a3f79088da0a223a",
+   "start": 1779,
+   "end": 1786,
+   "text_sha256": "fde7ef14dc1a5742141d1b7c6775ea991da2787376091b3d2e53076e3e8d6caa",
+   "action": "retain",
+   "reason": "urban_industrial_abbreviation",
+   "review_index": "frus:92"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 131,
+   "end": 134,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:93"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 455,
+   "end": 458,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:94"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 699,
+   "end": 702,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:95"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 904,
+   "end": 907,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:96"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 1339,
+   "end": 1342,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:97"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 1851,
+   "end": 1854,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:98"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 2015,
+   "end": 2018,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:99"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 2140,
+   "end": 2143,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:100"
+  },
+  {
+   "doc_id": "frus_sachn:d165_frus1969-76v34",
+   "source_text_sha256": "ebf6a2dd053349b25fa7188bcf4fbf26cce290203fd8b6c36bf21efdad96bfcd",
+   "start": 2495,
+   "end": 2498,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:101"
+  },
+  {
+   "doc_id": "frus_sachn:d204_frus1969-76v34",
+   "source_text_sha256": "5064c839a83fce3ec05007bcc5753fbea3fe182f8d5f67156202cc1da74c0a4d",
+   "start": 2810,
+   "end": 2817,
+   "text_sha256": "fde7ef14dc1a5742141d1b7c6775ea991da2787376091b3d2e53076e3e8d6caa",
+   "action": "retain",
+   "reason": "urban_industrial_abbreviation",
+   "review_index": "frus:102"
+  },
+  {
+   "doc_id": "frus_sachn:d56_frus1969-76v37",
+   "source_text_sha256": "8b549409c4e21d55220be3d6784ad2fff28a56b39669699e0c9a4393adb204cf",
+   "start": 6279,
+   "end": 6285,
+   "text_sha256": "8b76c04f9be3d5b5ee359419402c83a8093328adfab6f9395262e6ac244f6fa0",
+   "action": "retain",
+   "reason": "UN_resolution_session_number",
+   "review_index": "frus:103"
+  },
+  {
+   "doc_id": "frus_sachn:d84_frus1969-76v37",
+   "source_text_sha256": "028eb7acf58d86b33350c30b79701b5cedb780ba6d4caa5462648c23386e1e2b",
+   "start": 2408,
+   "end": 2411,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "retain",
+   "reason": "plural_site_suffix",
+   "review_index": "frus:104"
+  },
+  {
+   "doc_id": "frus_sachn:d260_frus1969-76v37",
+   "source_text_sha256": "60afcef4cf511ac2c3e45ef04a0e6c9a693803d05334906b931bfcacebb18440",
+   "start": 181,
+   "end": 199,
+   "text_sha256": "1f55c2eb01792c228e12109e427de48c171cb0c5d74a691d38c2f9234a53cb57",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:105"
+  },
+  {
+   "doc_id": "frus_sachn:d42_frus1969-76v41",
+   "source_text_sha256": "57952f69804483006c643c6c829ad35489cb8e83f36f4c4cd3a67ad3f695932d",
+   "start": 722,
+   "end": 725,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:106"
+  },
+  {
+   "doc_id": "frus_sachn:d342_frus1969-76ve01",
+   "source_text_sha256": "a5003249e31dd3bf50f7ccdb24933258fe8c7abfe212836fe53ea2bd8ba0cf31",
+   "start": 2715,
+   "end": 2721,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:107"
+  },
+  {
+   "doc_id": "frus_sachn:d342_frus1969-76ve01",
+   "source_text_sha256": "a5003249e31dd3bf50f7ccdb24933258fe8c7abfe212836fe53ea2bd8ba0cf31",
+   "start": 9725,
+   "end": 9731,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:108"
+  },
+  {
+   "doc_id": "frus_sachn:d342_frus1969-76ve01",
+   "source_text_sha256": "a5003249e31dd3bf50f7ccdb24933258fe8c7abfe212836fe53ea2bd8ba0cf31",
+   "start": 12086,
+   "end": 12092,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:109"
+  },
+  {
+   "doc_id": "frus_sachn:d127_frus1969-76ve02",
+   "source_text_sha256": "fe7f14e0820e6bf17c721f61de52fc12d82ffe900bc065f3a0dd8c437a5b03fd",
+   "start": 344,
+   "end": 347,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "paragraph_C_reference",
+   "review_index": "frus:110"
+  },
+  {
+   "doc_id": "frus_sachn:d267_frus1969-76ve02",
+   "source_text_sha256": "17fe6ba421995f062f3fda906106c52473e00fffcbca06d3f4571e86384a978b",
+   "start": 263,
+   "end": 268,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:111"
+  },
+  {
+   "doc_id": "frus_sachn:d267_frus1969-76ve02",
+   "source_text_sha256": "17fe6ba421995f062f3fda906106c52473e00fffcbca06d3f4571e86384a978b",
+   "start": 1135,
+   "end": 1140,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:112"
+  },
+  {
+   "doc_id": "frus_sachn:d1_frus1969-76ve03",
+   "source_text_sha256": "b64143cbef564421fe4bb73d86dd0ed7689ec0ca6b6aca432c944ee20e033603",
+   "start": 6303,
+   "end": 6306,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "UN_resolution_subsection",
+   "review_index": "frus:113"
+  },
+  {
+   "doc_id": "frus_sachn:d125_frus1969-76ve03",
+   "source_text_sha256": "20b36cbf88db81134f92af264b657ad4a62913e2385e07032f3c0cb3ca69d691",
+   "start": 11129,
+   "end": 11135,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "retain",
+   "reason": "substantive_discussion_of_classification_policy",
+   "review_index": "frus:114"
+  },
+  {
+   "doc_id": "frus_sachn:d125_frus1969-76ve03",
+   "source_text_sha256": "20b36cbf88db81134f92af264b657ad4a62913e2385e07032f3c0cb3ca69d691",
+   "start": 16274,
+   "end": 16280,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "retain",
+   "reason": "substantive_discussion_of_classification_policy",
+   "review_index": "frus:115"
+  },
+  {
+   "doc_id": "frus_sachn:d19_frus1969-76ve04",
+   "source_text_sha256": "03bdd6fa2c61798ce2b71d0d07baa5cacaa6d9c94c38c4b343d598f302a1ec2f",
+   "start": 42,
+   "end": 48,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:116"
+  },
+  {
+   "doc_id": "frus_sachn:d37_frus1969-76ve05p1",
+   "source_text_sha256": "f15046d6eca95ee9411f98407fe67f737d31105902c9fec8de93b0f501b7765d",
+   "start": 741,
+   "end": 747,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:117"
+  },
+  {
+   "doc_id": "frus_sachn:d16_frus1969-76ve05p2",
+   "source_text_sha256": "4f22611349c61a9b070f93e0beba9e858678c4c44033048ee2ee36d3965fe02e",
+   "start": 267,
+   "end": 273,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:118"
+  },
+  {
+   "doc_id": "frus_sachn:d2_frus1969-76ve07",
+   "source_text_sha256": "05b4ab859fb913a4e784f9fd7b23ec515c87d3e3c154f0b986ca270d6e1dec3a",
+   "start": 4574,
+   "end": 4577,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "subparagraph_C_reference",
+   "review_index": "frus:119"
+  },
+  {
+   "doc_id": "frus_sachn:d18_frus1969-76ve07",
+   "source_text_sha256": "fffac608dbd6b4416d6e18ebca6d26bf6ea409fbcbe92027b8eab0bbc6883892",
+   "start": 27255,
+   "end": 27258,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "paragraph_C_reference",
+   "review_index": "frus:120"
+  },
+  {
+   "doc_id": "frus_sachn:d77_frus1969-76ve07",
+   "source_text_sha256": "409d2c5fbed315f7aa7e7d846f072df53f26823e6921c110a0a578e38dede84b",
+   "start": 5475,
+   "end": 5481,
+   "text_sha256": "75f5b027d7d10f3597f31c4beeda934c482d65643c85d5967b79e274b561b44d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:121"
+  },
+  {
+   "doc_id": "frus_sachn:d201_frus1969-76ve07",
+   "source_text_sha256": "95a9a2a50d0874bbec9370f1952068bbd00b6e1bc41d6fea9047a3c10bb4a250",
+   "start": 2810,
+   "end": 2813,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "option_C_reference",
+   "review_index": "frus:122"
+  },
+  {
+   "doc_id": "frus_sachn:d117_frus1969-76ve12",
+   "source_text_sha256": "fc9b5bdee7383a2415f3d4deed1ae6f2c6e3fbdf08134d3c7bab0270e765c356",
+   "start": 344,
+   "end": 370,
+   "text_sha256": "50d8d59e5cc382f3c2fda082c3e2da35c23760d7f6b83a9b3f4bf10b2ded74ee",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:123"
+  },
+  {
+   "doc_id": "frus_sachn:d185_frus1969-76ve12",
+   "source_text_sha256": "90dbfafe56503ec9231edc4c0cd34793cf093242ea4d8c8b2cc3a043f3eb2eb7",
+   "start": 222,
+   "end": 227,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:124"
+  },
+  {
+   "doc_id": "frus_sachn:d185_frus1969-76ve12",
+   "source_text_sha256": "90dbfafe56503ec9231edc4c0cd34793cf093242ea4d8c8b2cc3a043f3eb2eb7",
+   "start": 2723,
+   "end": 2726,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "assistant_secretary_office_code",
+   "review_index": "frus:125"
+  },
+  {
+   "doc_id": "frus_sachn:d320_frus1969-76ve12",
+   "source_text_sha256": "0dc0f6d3dc64b5f3ba77ceda16eb02e131a358b88cf6235ce81bf62ca680536f",
+   "start": 196,
+   "end": 201,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:126"
+  },
+  {
+   "doc_id": "frus_sachn:d116_frus1969-76ve14p1",
+   "source_text_sha256": "7bd65cd92f40d692d851e68560b5041736642573ba8363596b5c07cdee46c777",
+   "start": 16251,
+   "end": 16254,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "enumerated_C_reference",
+   "review_index": "frus:127"
+  },
+  {
+   "doc_id": "frus_sachn:d116_frus1969-76ve14p1",
+   "source_text_sha256": "7bd65cd92f40d692d851e68560b5041736642573ba8363596b5c07cdee46c777",
+   "start": 16465,
+   "end": 16468,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "enumerated_C_reference",
+   "review_index": "frus:128"
+  },
+  {
+   "doc_id": "frus_sachn:d133_frus1981-88v11",
+   "source_text_sha256": "eae4c5fb1593f107cd6f5bc5da584e15589dcc2601f2001dd2ba71d316a7a345",
+   "start": 1830,
+   "end": 1833,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:129"
+  },
+  {
+   "doc_id": "frus_sachn:d290_frus1981-88v11",
+   "source_text_sha256": "4b9d5d9ea534740a98f43b1f43102de2a58a46b0e71a9772d99bf385101573c0",
+   "start": 1488,
+   "end": 1491,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:130"
+  },
+  {
+   "doc_id": "frus_sachn:d54_frus1981-88v13",
+   "source_text_sha256": "b34c27b842efa6dc4901c8764127569c43ccf193004ac3dabbbbc49a0df7d7cb",
+   "start": 41,
+   "end": 44,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:131"
+  },
+  {
+   "doc_id": "frus_sachn:d65_frus1981-88v13",
+   "source_text_sha256": "0da620727f8cd12240a22ed1bec57d34be538d724faff0faa265837aa1357aa8",
+   "start": 24,
+   "end": 27,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:132"
+  },
+  {
+   "doc_id": "frus_sachn:d245_frus1981-88v13",
+   "source_text_sha256": "812d37484dc6008483b7f8769e94d59b8b4e845e654f4f624f2bdee4d62620cf",
+   "start": 54,
+   "end": 57,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:133"
+  },
+  {
+   "doc_id": "frus_sachn:d245_frus1981-88v13",
+   "source_text_sha256": "812d37484dc6008483b7f8769e94d59b8b4e845e654f4f624f2bdee4d62620cf",
+   "start": 2644,
+   "end": 2647,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "OSD_office_code",
+   "review_index": "frus:134"
+  },
+  {
+   "doc_id": "frus_sachn:d278_frus1981-88v13",
+   "source_text_sha256": "f407cd07d427cc3214800ca4f769935f19f9617c953b42b1e2c8d2b261f20114",
+   "start": 83,
+   "end": 86,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:135"
+  },
+  {
+   "doc_id": "frus_sachn:d289_frus1981-88v13",
+   "source_text_sha256": "0d5ecf6ea411f67b81847d70920f7bc0ccc1fd5c79ff4c7a3edc1ff8cee24928",
+   "start": 5533,
+   "end": 5536,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "enumerated_C_reference",
+   "review_index": "frus:136"
+  },
+  {
+   "doc_id": "frus_sachn:d306_frus1981-88v13",
+   "source_text_sha256": "5e1a604d56940a1536fd88e653a8f2a2a299fe7a5fbd510d4ef1373bf7013de4",
+   "start": 74,
+   "end": 77,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:137"
+  },
+  {
+   "doc_id": "frus_sachn:d317_frus1981-88v13",
+   "source_text_sha256": "53e8a842ff9c993b3aa73069dd5be251035ff5fc6229bcbb1f6956701f9bdfaf",
+   "start": 86,
+   "end": 90,
+   "text_sha256": "9c1a69eacc9dfde7b8c165f6e749eadb5f309f5ea76485b25506900be401574d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:138"
+  },
+  {
+   "doc_id": "frus_sachn:d325_frus1981-88v13",
+   "source_text_sha256": "8c2a0a139c721e3d87eb8098d18ab1e9d8866a85bcc6fa6d4ec611f5435c990d",
+   "start": 264,
+   "end": 267,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:139"
+  },
+  {
+   "doc_id": "frus_sachn:d334_frus1981-88v13",
+   "source_text_sha256": "476fc48ef6923dbf415b991afed01987ae853bd0dcdc2ede8bab41e02a5b01cd",
+   "start": 32,
+   "end": 36,
+   "text_sha256": "9c1a69eacc9dfde7b8c165f6e749eadb5f309f5ea76485b25506900be401574d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:140"
+  },
+  {
+   "doc_id": "frus_sachn:d339_frus1981-88v13",
+   "source_text_sha256": "666da8df50b9a92a570ab971b09fbc3492d1c5fd51e4a8eb145318b4adc933ab",
+   "start": 235,
+   "end": 238,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:141"
+  },
+  {
+   "doc_id": "frus_sachn:d363_frus1981-88v13",
+   "source_text_sha256": "40f787e0f949369c3df63884281c4d357129a3bdd5c6f5075cc0d5d1b395eb5b",
+   "start": 174,
+   "end": 178,
+   "text_sha256": "9c1a69eacc9dfde7b8c165f6e749eadb5f309f5ea76485b25506900be401574d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:142"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 85,
+   "end": 88,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:143"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 946,
+   "end": 949,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:144"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 1586,
+   "end": 1589,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:145"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 1898,
+   "end": 1901,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:146"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 2228,
+   "end": 2231,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:147"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 2593,
+   "end": 2596,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:148"
+  },
+  {
+   "doc_id": "frus_sachn:d399_frus1981-88v13",
+   "source_text_sha256": "6d4a5fbb1256137be9a8b704c8440cd763ccd759adea6661f751ec4df93a6b68",
+   "start": 2745,
+   "end": 2748,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:149"
+  },
+  {
+   "doc_id": "frus_sachn:d51_frus1981-88v24",
+   "source_text_sha256": "be131b143d087976e6653450efd16d387b88628df13113da5704a7f2b6f69f30",
+   "start": 41,
+   "end": 46,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:150"
+  },
+  {
+   "doc_id": "frus_sachn:d65_frus1981-88v24",
+   "source_text_sha256": "8c1077d5ce52ca56e1ce292674bdda0754476033c436558fccea769f258bce49",
+   "start": 36,
+   "end": 41,
+   "text_sha256": "09aef83b1e7a7507862ddd35d09f5228eef0a532f625e01c2436cee5deea8343",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:151"
+  },
+  {
+   "doc_id": "frus_sachn:d182_frus1981-88v24",
+   "source_text_sha256": "e32bd04b97240f7edadf28be529d42193e4996a1339b033a701a68349a7e20ab",
+   "start": 32,
+   "end": 37,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:152"
+  },
+  {
+   "doc_id": "frus_sachn:d276_frus1981-88v24",
+   "source_text_sha256": "d96b8af88e496e4251eff9ccb6a14edcc8849cee2370f82e3dc4844abf854180",
+   "start": 224,
+   "end": 229,
+   "text_sha256": "09aef83b1e7a7507862ddd35d09f5228eef0a532f625e01c2436cee5deea8343",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:153"
+  },
+  {
+   "doc_id": "frus_sachn:d341_frus1981-88v24",
+   "source_text_sha256": "2ca8b95411ef8f7998ff171504a01dd89bc0e867ac2d3a56bcccc16d8054221c",
+   "start": 37,
+   "end": 41,
+   "text_sha256": "9c1a69eacc9dfde7b8c165f6e749eadb5f309f5ea76485b25506900be401574d",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:154"
+  },
+  {
+   "doc_id": "frus_sachn:d444_frus1981-88v24",
+   "source_text_sha256": "c4acebf07c09950b9dbba07b5e5a8f4538373c5ec9d4e5687b6fea0df93c33fc",
+   "start": 6194,
+   "end": 6210,
+   "text_sha256": "50c20c163a9945dcbcb3f6d966c3c331b08d453f9acce9fd8e34e6823e2f5f6a",
+   "action": "retain",
+   "reason": "archive_folder_title",
+   "review_index": "frus:155"
+  },
+  {
+   "doc_id": "frus_sachn:d120_frus1981-88v41",
+   "source_text_sha256": "b394eae3c5d6a3b4eef5f51e04017ca0e8d3f0c44854cf9dd9ad469f4f8b9223",
+   "start": 1263,
+   "end": 1266,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "explicit_classification_or_handling_annotation_context_reviewed",
+   "review_index": "frus:156"
+  },
+  {
+   "doc_id": "frus_sachn:d169_frus1981-88v41",
+   "source_text_sha256": "71bba8d283aa5850f432650cab3eebd5c7065a52c65dde0e9699f27c905ea783",
+   "start": 1075,
+   "end": 1078,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "legal_subsection_chain",
+   "review_index": "frus:157"
+  },
+  {
+   "doc_id": "frus_sachn:d373_frus1981-88v41",
+   "source_text_sha256": "811b835376ca60bbd8b3f3bba1720d4c7131ae6ae43874a6622551c78e91ad70",
+   "start": 7715,
+   "end": 7771,
+   "text_sha256": "a76b9e493de569e1d042d379c5c32d77e1b4862778d1f3b31ca022433369b280",
+   "action": "retain",
+   "reason": "economic_equation",
+   "review_index": "frus:158"
+  },
+  {
+   "doc_id": "frus_sachn:d109_frus1977-80v04",
+   "source_text_sha256": "ecdae6f46c97d1fa431c4894462354e0a28876e95f1f6b83abc503b2619edda4",
+   "start": 4221,
+   "end": 4224,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:0"
+  },
+  {
+   "doc_id": "frus_sachn:d175_frus1977-80v04",
+   "source_text_sha256": "30b8c7199ba56a1f041f04233799515fb4713010d39e7647a89392bf5fdd3c10",
+   "start": 30,
+   "end": 35,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:1"
+  },
+  {
+   "doc_id": "frus_sachn:d177_frus1977-80v04",
+   "source_text_sha256": "d762418951f7a8eab3bd38fb191fc869280375aab3d8dc21322b5129f437420e",
+   "start": 1670,
+   "end": 1675,
+   "text_sha256": "09aef83b1e7a7507862ddd35d09f5228eef0a532f625e01c2436cee5deea8343",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:2"
+  },
+  {
+   "doc_id": "frus_sachn:d182_frus1977-80v04",
+   "source_text_sha256": "2dff05f0481955696351f79814bb6a2b4b005f1d4040d3441673b502ba88c045",
+   "start": 558,
+   "end": 563,
+   "text_sha256": "0bf4c22273e9a21059c2bf14c8596990be6a3baa2ccd5789a8b0bf48cf32edf7",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:3"
+  },
+  {
+   "doc_id": "frus_sachn:d404_frus1977-80v09Ed2",
+   "source_text_sha256": "66ee7b87a92bc4ee93492bfa08983d11144b37806281ba7c1a8a11b5f91e5f95",
+   "start": 201,
+   "end": 204,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:4"
+  },
+  {
+   "doc_id": "frus_sachn:d404_frus1977-80v09Ed2",
+   "source_text_sha256": "66ee7b87a92bc4ee93492bfa08983d11144b37806281ba7c1a8a11b5f91e5f95",
+   "start": 1246,
+   "end": 1249,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:5"
+  },
+  {
+   "doc_id": "frus_sachn:d47_frus1977-80v17p3",
+   "source_text_sha256": "ba14fac26c3c2475b37f773bf40b3772cee309eb92484d26fc2bb7dfc9fbaedb",
+   "start": 11860,
+   "end": 11863,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:6"
+  },
+  {
+   "doc_id": "frus_sachn:d47_frus1977-80v17p3",
+   "source_text_sha256": "ba14fac26c3c2475b37f773bf40b3772cee309eb92484d26fc2bb7dfc9fbaedb",
+   "start": 12133,
+   "end": 12136,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:7"
+  },
+  {
+   "doc_id": "frus_sachn:d64_frus1977-80v20",
+   "source_text_sha256": "6300044884e5ac2495a7fca0658fa4cd1b24f5b5271611f826f739e7785a2cfb",
+   "start": 3068,
+   "end": 3071,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:8"
+  },
+  {
+   "doc_id": "frus_sachn:d211_frus1977-80v20",
+   "source_text_sha256": "59ad7ac7608d8087eaf007c8d6134b66d23e5273e1867f6e17511d17f894a324",
+   "start": 14079,
+   "end": 14082,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:9"
+  },
+  {
+   "doc_id": "frus_sachn:d211_frus1977-80v20",
+   "source_text_sha256": "59ad7ac7608d8087eaf007c8d6134b66d23e5273e1867f6e17511d17f894a324",
+   "start": 14470,
+   "end": 14473,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:10"
+  },
+  {
+   "doc_id": "frus_sachn:d211_frus1977-80v20",
+   "source_text_sha256": "59ad7ac7608d8087eaf007c8d6134b66d23e5273e1867f6e17511d17f894a324",
+   "start": 15201,
+   "end": 15204,
+   "text_sha256": "8238a279bda41c6bcc8ab1b98073abe7a34189a99574b17bb26fc62ddbce3bdc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:11"
+  },
+  {
+   "doc_id": "frus_sachn:d470_frus1977-80v26",
+   "source_text_sha256": "c2922df81fce0a4f6e7d472e98fface1cddc104e6a5fbcbf5057954240349943",
+   "start": 4887,
+   "end": 4890,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:12"
+  },
+  {
+   "doc_id": "frus_sachn:d219_frus1969-76v28",
+   "source_text_sha256": "9f802d7ab5f74620107d92e599951c7f81a0f9b88960c1879185a4a0dab0aab0",
+   "start": 26529,
+   "end": 26532,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "legal_paragraph_IV_C_reference",
+   "review_index": "frus_round2:13"
+  },
+  {
+   "doc_id": "frus_sachn:d219_frus1969-76v28",
+   "source_text_sha256": "9f802d7ab5f74620107d92e599951c7f81a0f9b88960c1879185a4a0dab0aab0",
+   "start": 28907,
+   "end": 28910,
+   "text_sha256": "ab0531c9d89473e8c5af60d4621a5d5bfaa6a5b1f1ebf3cc69e20814fee801cc",
+   "action": "retain",
+   "reason": "legal_paragraph_IV_C_reference",
+   "review_index": "frus_round2:14"
+  },
+  {
+   "doc_id": "frus_sachn:d11_frus1969-76v34",
+   "source_text_sha256": "6cda54838a3ac24ba9717d29d457e0369f714c22f4ecf95b21b874a8ec693bfb",
+   "start": 72,
+   "end": 75,
+   "text_sha256": "891d73bf9ab415cd1ac46140a0a21ba4bd390e3db0237e03b03c28aeeb62ffe2",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:15"
+  },
+  {
+   "doc_id": "frus_sachn:d49_frus1981-88v05",
+   "source_text_sha256": "6fae0d5670dff7e2f9c1581881b1d16d6fd31a83688452f220c30f84383c392b",
+   "start": 1480,
+   "end": 1485,
+   "text_sha256": "89d0ca0322e1631012409e58c84dbb0a80bb8982a4b118223b05a1ca86cc56c6",
+   "action": "retain",
+   "reason": "reference_C_enumeration",
+   "review_index": "frus_round2:16"
+  },
+  {
+   "doc_id": "frus_sachn:d106_frus1981-88v24",
+   "source_text_sha256": "967c602bfba42b6873b14a5c9da258c40e02872e58fbd811440cbe9024d60d91",
+   "start": 3084,
+   "end": 3089,
+   "text_sha256": "89d0ca0322e1631012409e58c84dbb0a80bb8982a4b118223b05a1ca86cc56c6",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:17"
+  },
+  {
+   "doc_id": "frus_sachn:d237_frus1981-88v24",
+   "source_text_sha256": "873d6e624aa12140840a6c825c307eeba399c1c375fe6eac0552bbab62d7c57d",
+   "start": 991,
+   "end": 996,
+   "text_sha256": "89d0ca0322e1631012409e58c84dbb0a80bb8982a4b118223b05a1ca86cc56c6",
+   "action": "retain",
+   "reason": "reference_C_enumeration",
+   "review_index": "frus_round2:18"
+  },
+  {
+   "doc_id": "frus_sachn:d13_frus1981-88v38",
+   "source_text_sha256": "475351c9f87f3ea1014cafc971e9eb030f0b1331020ade0a12269c336a2eebea",
+   "start": 5537,
+   "end": 5542,
+   "text_sha256": "89d0ca0322e1631012409e58c84dbb0a80bb8982a4b118223b05a1ca86cc56c6",
+   "action": "retain",
+   "reason": "enumerated_C_argument",
+   "review_index": "frus_round2:19"
+  },
+  {
+   "doc_id": "frus_sachn:d143_frus1981-88v38",
+   "source_text_sha256": "5c1015183378531a3af7feaa4c22144bf55b2af50e716dcde55a073481871114",
+   "start": 1299,
+   "end": 1304,
+   "text_sha256": "89d0ca0322e1631012409e58c84dbb0a80bb8982a4b118223b05a1ca86cc56c6",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:20"
+  },
+  {
+   "doc_id": "frus_sachn:d342_frus1981-88v38",
+   "source_text_sha256": "92dac25ea66755693f877dad85a2f94401f581b2900eca5ad77d98f429627fc8",
+   "start": 2363,
+   "end": 2368,
+   "text_sha256": "09aef83b1e7a7507862ddd35d09f5228eef0a532f625e01c2436cee5deea8343",
+   "action": "remove",
+   "reason": "classification_anchor_in_heading_list_or_before_editorial_note",
+   "review_index": "frus_round2:21"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10RIYADH80_a",
+   "source_text_sha256": "55982a47022f4717e155ca2d710767c965c3a932c72168aaf46ae1088150701d",
+   "start": 7756,
+   "end": 7770,
+   "text_sha256": "65fe40727620ceadef641bff65cad01b5ad6c1a105327c32b63e2c6986f338c2",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:208"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD190_a",
+   "source_text_sha256": "a3dde4b7326cff7d6c390de52c3e62cf1277290e096ef1aa0b1604ec51f942c1",
+   "start": 1859,
+   "end": 1873,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:209"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD189_a",
+   "source_text_sha256": "89b98e4296ac2d1c1c09638703ef25e38fee000d568caaef91f98d466235e402",
+   "start": 1873,
+   "end": 1887,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:210"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD189_a",
+   "source_text_sha256": "89b98e4296ac2d1c1c09638703ef25e38fee000d568caaef91f98d466235e402",
+   "start": 7145,
+   "end": 7159,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:211"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD189_a",
+   "source_text_sha256": "89b98e4296ac2d1c1c09638703ef25e38fee000d568caaef91f98d466235e402",
+   "start": 12359,
+   "end": 12373,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:212"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD189_a",
+   "source_text_sha256": "89b98e4296ac2d1c1c09638703ef25e38fee000d568caaef91f98d466235e402",
+   "start": 17420,
+   "end": 17434,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:213"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BAGHDAD189_a",
+   "source_text_sha256": "89b98e4296ac2d1c1c09638703ef25e38fee000d568caaef91f98d466235e402",
+   "start": 22703,
+   "end": 22717,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:214"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10LIMA69_a",
+   "source_text_sha256": "39a279c3f47bb6c833904472c7c9391ebd33ed0cada9ce0ea264d06af7ef1206",
+   "start": 9787,
+   "end": 9810,
+   "text_sha256": "8cdf2b11afef325c92a0f66b097d937aff96af5300ee52a7f7ba82e04c53f335",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:215"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10CARACAS101_a",
+   "source_text_sha256": "363a894bf889e55a15c8b484260702aef4186ca7499bdb1364419795bdcbcb39",
+   "start": 1139,
+   "end": 1152,
+   "text_sha256": "710a1a63f16bcc227e3b0c9ebb8b6e735b18929d9c3c8c99e02113036d436174",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:216"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10PRETORIA289_a",
+   "source_text_sha256": "e88aaa16300d04fda748a0ecf5148a4b4ba60670ff4b900809b36de21edb514f",
+   "start": 16440,
+   "end": 16503,
+   "text_sha256": "02d6dc49b16b3c1789c7d398d102b775542d0e13e2c5591e4f2807c6d1e673c9",
+   "action": "remove",
+   "reason": "explicit_document_or_portion_classification_and_handling_notice",
+   "review_index": "broad:217"
+  },
+  {
+   "doc_id": "wikileaks_cable_classifier:10BANGKOK468_a",
+   "source_text_sha256": "eed8225533f2b10d9903dbb100e06032ce4ad1e834d3649400754c890c1f4fb0",
+   "start": 72140,
+   "end": 72153,
+   "text_sha256": "710a1a63f16bcc227e3b0c9ebb8b6e735b18929d9c3c8c99e02113036d436174",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:218"
+  },
+  {
+   "doc_id": "frus_sachn:d63_frus1977-80v09Ed2",
+   "source_text_sha256": "9fa70b281f8405b38dffc4d481365e88e4deeb3960daf14966d6066b3766a781",
+   "start": 231,
+   "end": 349,
+   "text_sha256": "ee27388ee07a6f45295e06b5b417d9da654f450eded6d59ad36830807a2b3805",
+   "action": "remove",
+   "reason": "explicit_document_or_portion_classification_and_handling_notice",
+   "review_index": "broad:219"
+  },
+  {
+   "doc_id": "frus_sachn:d393_frus1977-80v09Ed2",
+   "source_text_sha256": "a5ac073dffa1aea4c5894ac6fccfa1d43bbbd68e08ceaa637758e43242b3ba21",
+   "start": 4824,
+   "end": 4847,
+   "text_sha256": "8cdf2b11afef325c92a0f66b097d937aff96af5300ee52a7f7ba82e04c53f335",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:220"
+  },
+  {
+   "doc_id": "frus_sachn:d204_frus1977-80v11p1",
+   "source_text_sha256": "6281bb6340b19b9ec38ff64dbfb4800639fe21032300ff2ed7706429582e5c4f",
+   "start": 20109,
+   "end": 20152,
+   "text_sha256": "4d898d8c2721c8d4d6546394a789d08a4e4757a720b2aa4fd467835b1d0d75b3",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:221"
+  },
+  {
+   "doc_id": "frus_sachn:d422_frus1977-80v26",
+   "source_text_sha256": "27b92ec39acff85a493be9ec5c86f0322373862dd2bf2b1543ba5756ad640744",
+   "start": 11801,
+   "end": 11901,
+   "text_sha256": "481e8191aebbd1c62a215154887c1306347bbaa0290bd7923fa79e96553559df",
+   "action": "remove",
+   "reason": "explicit_document_or_portion_classification_and_handling_notice",
+   "review_index": "broad:222"
+  },
+  {
+   "doc_id": "frus_sachn:d66_frus1977-80v29",
+   "source_text_sha256": "c2fc994d8d7e508b7a5a63ba9dd641a7c1b538e2ca0484d179dc8e7491220891",
+   "start": 10357,
+   "end": 10799,
+   "text_sha256": "b966e9812f776db9a6e862e0d53a8eaea3e4674de1085bc6e187000edd2b6966",
+   "action": "remove",
+   "reason": "explicit_document_or_portion_classification_and_handling_notice",
+   "review_index": "broad:223"
+  },
+  {
+   "doc_id": "frus_sachn:d84_frus1961-63v01",
+   "source_text_sha256": "17c1f016ef6fd7d2fa2e155ea5023606c78cb017e92ded5fde3154e24f148de5",
+   "start": 223,
+   "end": 275,
+   "text_sha256": "dc009a9d8e79d4711f4295d0cdc9a3ac141b806c471e0c9547f2a9b087302a6b",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:224"
+  },
+  {
+   "doc_id": "frus_sachn:d293_frus1961-63v03",
+   "source_text_sha256": "167981672f107e9793590b3ea701b1de96725237ddaf0238597706be98a57b3e",
+   "start": 1300,
+   "end": 1343,
+   "text_sha256": "4d898d8c2721c8d4d6546394a789d08a4e4757a720b2aa4fd467835b1d0d75b3",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:225"
+  },
+  {
+   "doc_id": "frus_sachn:d320_frus1964-68v01",
+   "source_text_sha256": "b9c87729f343ea6f6e86cf2bf3e42b9256a9eaa6289a12b060348cf1c41017c9",
+   "start": 9694,
+   "end": 9743,
+   "text_sha256": "4b60ff1b86b4ed9b5b76b2bbba58c191975f87fa683a5c23be2dc0fc6e154d6f",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:226"
+  },
+  {
+   "doc_id": "frus_sachn:d85_frus1964-68v05",
+   "source_text_sha256": "2a03ed40bb09b81f36bf576411f4f6990eae6154bd61a6fb2b85d55a83999f53",
+   "start": 25422,
+   "end": 25436,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:227"
+  },
+  {
+   "doc_id": "frus_sachn:d44_frus1964-68v17",
+   "source_text_sha256": "584775934a928b66643a71f69e9be5ef94aa8273cc091a1b7894c631906c40c8",
+   "start": 5454,
+   "end": 5468,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:228"
+  },
+  {
+   "doc_id": "frus_sachn:d530_frus1964-68v19",
+   "source_text_sha256": "0266097758b95f7e475ada52274530745a9527a64f19c376386c3a1aa80f8f67",
+   "start": 921,
+   "end": 973,
+   "text_sha256": "3f689718d260c0fc9e9e415a4da4cf9c890ad3c39beb2da95377e70637a3dc5d",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:229"
+  },
+  {
+   "doc_id": "frus_sachn:d550_frus1964-68v24",
+   "source_text_sha256": "7e3a34d9224225b8dc97cceae0b4cd0ebd8af95e18245058f5e796db4ffabef3",
+   "start": 159,
+   "end": 173,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:230"
+  },
+  {
+   "doc_id": "frus_sachn:d257_frus1969-76v14",
+   "source_text_sha256": "bf1253a301c7b1388c7548fd548569426c1a65ce1ff78ba3ec548949165a1176",
+   "start": 18004,
+   "end": 18047,
+   "text_sha256": "4d898d8c2721c8d4d6546394a789d08a4e4757a720b2aa4fd467835b1d0d75b3",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:231"
+  },
+  {
+   "doc_id": "frus_sachn:d74_frus1969-76v26",
+   "source_text_sha256": "7bf703f9b14f107365770535ef39135e3bcee0a6c1bec3bfa4d384f3d59da65f",
+   "start": 35958,
+   "end": 35972,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:232"
+  },
+  {
+   "doc_id": "frus_sachn:d184_frus1969-76v29",
+   "source_text_sha256": "616229632038a3912458459d894c612c7f8d65c3ac13b1e0eabb47c3f427ec19",
+   "start": 23340,
+   "end": 23383,
+   "text_sha256": "4d898d8c2721c8d4d6546394a789d08a4e4757a720b2aa4fd467835b1d0d75b3",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:233"
+  },
+  {
+   "doc_id": "frus_sachn:d204_frus1969-76v38p2",
+   "source_text_sha256": "c0576b45b2bf4fdbdc90c0b27d373fc27d6dc2dd77412898e14d8e17dfe2547f",
+   "start": 1514,
+   "end": 1540,
+   "text_sha256": "304194aa275b9aa233512bbab762d8f45d3d7bb25b245574a28e667347c4f791",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:234"
+  },
+  {
+   "doc_id": "frus_sachn:d110_frus1969-76ve03",
+   "source_text_sha256": "380def832a1729849b8a972c5319557ceef03f30438d2a0ff1e4d3c38d73686a",
+   "start": 3304,
+   "end": 3346,
+   "text_sha256": "4b3292209c8932b50f1184d8f4db3532d343c8747796f7f178ae39fd962dcfcd",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:235"
+  },
+  {
+   "doc_id": "frus_sachn:d102_frus1969-76ve08",
+   "source_text_sha256": "5dfc86e7238ffe5611f3d47779ea7cd3135aa6ba11334210568ed8f5a19cdc18",
+   "start": 9691,
+   "end": 9864,
+   "text_sha256": "a3f4467adbf274547484a9066267c899a53cb5009feed96c3eaf0a563579bd04",
+   "action": "remove",
+   "reason": "explicit_document_or_portion_classification_and_handling_notice",
+   "review_index": "broad:236"
+  },
+  {
+   "doc_id": "frus_sachn:d60_frus1969-76ve15p1",
+   "source_text_sha256": "5f79beb13432c3d9cebddb673a6df82ab7b8ff6a36960a9f2dcd52b5685283b0",
+   "start": 971,
+   "end": 985,
+   "text_sha256": "65fe40727620ceadef641bff65cad01b5ad6c1a105327c32b63e2c6986f338c2",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:237"
+  },
+  {
+   "doc_id": "frus_sachn:d19_frus1981-88v11",
+   "source_text_sha256": "2e766d506e84045884e0517991f2221e8ecb03c3f4f3a2d6cf9ff82f5f23e6d8",
+   "start": 4073,
+   "end": 4087,
+   "text_sha256": "7b225f74710db2065c114ee180307a8167c2b0f74aa87dd10e141b7f534ad879",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:238"
+  },
+  {
+   "doc_id": "frus_sachn:d21_frus1981-88v11",
+   "source_text_sha256": "0966f5868b7a808427629569d2dcfa65cd1dde670f21bd7ed303380c8f79f319",
+   "start": 2503,
+   "end": 2533,
+   "text_sha256": "d110fc3552b4a28fc2352019ab00aac101c63320ce9d827679ea2be2cbdf3de9",
+   "action": "retain",
+   "reason": "substantive_reporting_about_policy_people_technology_or_another_document_not_current_document_marking",
+   "review_index": "broad:239"
+  }
+ ]
+}

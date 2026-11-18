@@ -1,0 +1,15 @@
+{
+  "version": "supplement-v1",
+  "grades": ["TOP SECRET", "SECRET", "CONFIDENTIAL", "UNCLASSIFIED", "SENSITIVE BUT UNCLASSIFIED", "LIMITED OFFICIAL USE", "SBU", "FOUO"],
+  "grade_abbreviations": ["TS", "S", "C", "U"],
+  "handling": ["NOFORN", "NODIS", "EXDIS", "LIMDIS", "SIPDIS", "SPECAT EXCLUSIVE", "SPECAT", "EYES ONLY", "ORCON", "NOCONTRACT", "NO FOREIGN DISSEM"],
+  "scope_heads": ["ENTIRE", "FULL"],
+  "scope_objects": ["TEXT", "MESSAGE", "CONTENTS", "DOCUMENT", "CABLE", "REPORT", "TELEGRAM"],
+  "policy": {
+    "quoted_or_reported_markings": "retain_and_review",
+    "ambiguous_body_mentions": "retain_and_review",
+    "abbreviated_portion_marks": "retain_and_review_unless_part_of_whole_document_declaration",
+    "new_classification_admin_fields": "retain_and_review",
+    "normalization": "token matching only; original character offsets and all nondeleted characters preserved"
+  }
+}
